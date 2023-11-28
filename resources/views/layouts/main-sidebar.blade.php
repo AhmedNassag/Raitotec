@@ -3,17 +3,28 @@
 	<div class="sidebar-inner slimscroll">
 		<div id="sidebar-menu" class="sidebar-menu">
 			<ul>
-				<li class="menu-title"><span>Coding System</span></li>
+				<li class="menu-title"><span>Raitotec Dashboard</span></li>
+				<!--home-->
 				<li class="{{ Request::is('admin/index_admin') ? 'active' : '' }}">
 					<a href="{{ url('admin/index_admin') }}"><i data-feather="home"></i> <span>{{ trans('main.Dashboard') }}</span></a>
 				</li>
+
+				<!--customerService-->
 				<li class="{{ Request::is('admin/user','admin/role') ? 'active' : '' }} submenu">
-					<a href="#"><i data-feather="users"></i> <span>{{ trans('main.Users') }}</span> <span class="menu-arrow"></span></a>
+					<a href="#"><i data-feather="users"></i> <span>{{ trans('main.roles') }} {{ trans('main.Users') }}</span> <span class="menu-arrow"></span></a>
 					<ul>
 						<li class="ml-1"><a class=" {{ Request::is('admin/user') ? 'active' : '' }}" href="{{ route('user.index') }}">{{ trans('main.Users') }}</a></li>
 						<li class="ml-1"><a class=" {{ Request::is(['admin/role', 'admin/role/create', 'admin/role/*/edit', 'admin/role/*']) ? 'active' : '' }}" href="{{ route('role.index') }}">{{ trans('main.Roles') }}</a></li>
 					</ul>
 				</li>
+
+				
+				<!--customerService-->
+				<li class="{{ Request::is('admin/customersService') ? 'active' : '' }}">
+					<a href="{{ route('customersService.index') }}"><i data-feather="copy"></i> <span>{{ trans('main.CustomersServices') }}</span></a>
+				</li>
+				
+
 				<li class="{{ Request::is('admin/category') ? 'active' : '' }}">
 					<a href="{{ route('category.index') }}"><i data-feather="copy"></i> <span>{{ trans('main.Categories') }}</span></a>
 				</li>

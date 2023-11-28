@@ -2,10 +2,34 @@
 
 
 
+@section('title')
+
+@if(app()->getLocale() == 'ar')
+شركة رايتو |  أنظمة برمجية متقدمة ومبتكرة
+@endif
+
+@endsection
+
+
+
+@section('meta-description')
+
+@if(app()->getLocale() == 'ar')
+<meta name="description" content="اكتشف أنظمة برمجية متقدمة ومبتكرة تلبي احتياجات عملك مع رايتو، نحن نقدم حلولًا مخصصة لتطوير وتنفيذ أنظمة برمجية متكاملة لتحسين كفاءة عملك.">
+@endif
+
+@endsection
+
+
+
 @section('content')
 <section class="component-hadeer">
     <div class="container">
-        <h2 class="page-title"> أهم الأنظمة البرمجية التي نقدمها</h2>
+        <h1 class="page-title">
+            @if(app()->getLocale() == 'ar')
+            أحصل على أنظمة برمجية متقدمة ومبتكرة مع رايتو
+            @endif
+        </h1>
     </div>
 </section>
 <!---->

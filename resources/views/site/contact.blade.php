@@ -2,12 +2,36 @@
 
 
 
+@section('title')
+
+@if(app()->getLocale() == 'ar')
+تواصل معنا | شركة رايتو لحلول برمجية وأنظمة برمجية
+@endif
+
+@endsection
+
+
+
+@section('meta-description')
+
+@if(app()->getLocale() == 'ar')
+<meta name="description" content="اتصل بفريق رايتو للحصول على الدعم المتعلق بحلول برمجية وأنظمة برمجية، نحن نقدم خدمة العملاء الممتازة والاستشارات المخصصة لمساعدتك في تحقيق أهدافك التقنية.">
+@endif
+
+@endsection
+
+
+
 @section('content')
 
 <!---->
 <section class="component-hadeer">
     <div class="container">
-        <h2 class="page-title">تواصل معنا</h2>
+        <h1 class="page-title">
+            @if(app()->getLocale() == 'ar')
+            تواصل معنا واستفد من حلول برمجية وأنظمة برمجية مخصصة
+            @endif
+        </h1>
     </div>
 </section>
 <section class="content-content mt-5 pb-5">

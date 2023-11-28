@@ -19,6 +19,15 @@ class RepoServiceProvider extends ServiceProvider
             'App\Repositories\Category\CategoryInterface',
             'App\Repositories\Category\CategoryRepository',
         );
+
+        /*** start dashboard ***/
+        //CustomersService
+        $this->app->bind(
+            'App\Repositories\CustomersService\CustomersServiceInterface',
+            'App\Repositories\CustomersService\CustomersServiceRepository',
+        );
+        /*** end dashboard ***/
+        
     }
 
     /**

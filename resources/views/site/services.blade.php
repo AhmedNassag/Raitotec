@@ -2,11 +2,35 @@
 
 
 
+@section('title')
+
+@if(app()->getLocale() == 'ar')
+خدمات شركة رايتو | للحلول البرمجية والأنظمة برمجية
+@endif
+
+@endsection
+
+
+
+@section('meta-description')
+
+@if(app()->getLocale() == 'ar')
+<meta name="description" content="استفد من خدماتنا المتخصصة في تقديم حلول برمجية وأنظمة برمجية مبتكرة لشركتك؛ فنحن نوفر تصميم وتطوير برامج مخصصة، وتنفيذ أنظمة متكاملة، ونحسن أداء شركتك.">
+@endif
+
+@endsection
+
+
+
 @section('content')
 <!--end-nav-->
 <section class="component-hadeer">
     <div class="container">
-        <h2 class="page-title"> أهم خدماتنا</h2>
+        <h1 class="page-title">
+            @if(app()->getLocale() == 'ar')
+            خدمات شركة برمجة | رايتو للأنظمة البرمجية
+            @endif
+        </h1>
     </div>
 </section>
 <!---->

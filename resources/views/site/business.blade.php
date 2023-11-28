@@ -2,12 +2,35 @@
 
 
 
+@section('title')
+
+@if(app()->getLocale() == 'ar')
+نماذج أعمال رايتو | للحلول البرمجية والأنظمة البرمجية
+@endif
+
+@endsection
+
+
+
+@section('meta-description')
+
+@if(app()->getLocale() == 'ar')
+<meta name="description" content="استعرض نماذج أعمال رايتو وتعرّف على حلولنا البرمجية المبتكرة والأنظمة البرمجية المخصصة التي نقدمها. اكتشف قدراتنا في تطوير البرمجيات وتصميم الحلول التقنية">
+@endif
+
+@endsection
+
+
+
 @section('content')
 
 <section class="component-hadeer">
     <div class="container">
-        <h2 class="page-title"> نماذج أعمالنا
-        </h2>
+        <h1 class="page-title">
+            @if(app()->getLocale() == 'ar')
+            نماذج أعمال شركة رايتو للخدمات البرمجية
+            @endif
+        </h1>
     </div>
 </section>
 <!---->

@@ -2,10 +2,34 @@
 
 
 
+@section('title')
+
+@if(app()->getLocale() == 'ar')
+من نحن - شركة رايتو | حلول برمجية وأنظمة برمجية مبتكرة
+@endif
+
+@endsection
+
+
+
+@section('meta-description')
+
+@if(app()->getLocale() == 'ar')
+<meta name="description" content="نحن شركة رايتو المتخصصة في تقديم حلول برمجية وأنظمة برمجية مبتكرة لتلبية احتياجات عملك. نقدم تصميم وتطوير برامج مخصصة، وتنفيذ أنظمة متكاملة، وحلول تحسين الأداء.">
+@endif
+
+@endsection
+
+
+
 @section('content')
 <section class="component-hadeer">
     <div class="container">
-        <h2 class="page-title"> من نحن</h2>
+        <h1 class="page-title">
+            @if(app()->getLocale() == 'ar')
+            من نحن | رايتو للحلول برمجية وأنظمة برمجية مبتكرة
+            @endif
+        </h1>
     </div>
 </section>
 <!--about-->

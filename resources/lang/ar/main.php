@@ -11,7 +11,6 @@ return [
     'Password' => 'كلمة المرور',
     'Email Or Mobile' => 'البريد الإلكترونى أو رقم الموبايل',
     'Remember Me' => 'تذكرنى',
-
     'Dashboard' => 'لوحة التحكم',
     'Main' => 'الرئيسية',
     'Index' => 'الرئيسية',
@@ -59,6 +58,7 @@ return [
     'Status' => 'الحالة',
     'Role' => 'الدور',
     'Roles' => 'الصلاحيات',
+    'roles' => 'صلاحيات',
     'Back' => 'رجوع',
     'Active' => 'مفعل',
     'InActive' => 'غير مفعل',
@@ -69,4 +69,10 @@ return [
     'Categories' => 'الأصناف',
     'Name' => 'الإسم',
     'Photo' => 'الصورة',
+
+    //CustomersServices
+    'CustomersServices' => 'خدمة العملاء',
+    'CustomersService' => 'خدمة العملاء',
+    'Whatsapp' => 'رقم الواتس',
+    'Phone' => 'رقم التليفون',
 ];

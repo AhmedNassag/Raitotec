@@ -2,6 +2,26 @@
 
 
 
+@section('title')
+
+@if(app()->getLocale() == 'ar')
+حلول برمجية مبتكرة وأنظمة برمجية متخصصة - شركة رايتو
+@endif
+
+@endsection
+
+
+
+@section('meta-description')
+
+@if(app()->getLocale() == 'ar')
+<meta name="description" content="اكتشف حلول برمجية مبتكرة وأنظمة برمجية متخصصة تلبي احتياجات شركتك مع رايتو. نحن نقدم حلولًا مخصصة لتحسين كفاءة العمليات وزيادة الإنتاجية.">
+@endif
+
+@endsection
+
+
+
 @section('content')
 
 <!--carousel-->
@@ -17,8 +37,11 @@
                 <div class="overlay"></div>
             </div>
             <div class="carousel-caption  d-md-block">
-                <h5>رايتو</h5>
-                <p class="pt-5">للبرمجيات وتخطيط الموارد</p>
+                <h1>
+                    @if(app()->getLocale() == 'ar')
+                    مع رايتو أحصل على حلول برمجية وأنظمة برمجية مبتكرة
+                    @endif
+                </h1>
             </div>
         </div>
         <div class="carousel-item">

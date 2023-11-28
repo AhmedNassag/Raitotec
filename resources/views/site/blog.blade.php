@@ -2,11 +2,35 @@
 
 
 
+@section('title')
+
+@if(app()->getLocale() == 'ar')
+مدونة رايتو للحلول البرمجية والأنظمة البرمجية
+@endif
+
+@endsection
+
+
+
+@section('meta-description')
+
+@if(app()->getLocale() == 'ar')
+<meta name="description" content="استكشف مقالاتنا الممتعة والمفيدة في مدونة رايتو، حيث نقدم نصائح وأفكار حول حلول البرمجة بالإضافة إلى الأنظمة البرمجية وحول تطبيقات الجوال والمواقع الإلكترونية.">
+@endif
+
+@endsection
+
+
+
 @section('content')
 
 <section class="component-hadeer">
     <div class="container">
-        <h2 class="page-title"> المدونة</h2>
+        <h1 class="page-title">
+            @if(app()->getLocale() == 'ar')
+            المدونة | نصائح وأفكار حول الحلول البرمجية
+            @endif
+        </h1>
     </div>
 </section>
 <!--about-->

@@ -10,7 +10,7 @@
 
 		@yield('content')
 
-		@include('site.layouts.fixed-div')
+		@include('site.layouts.customers-services')
 		@include('site.layouts.customers-reviews')
 		@include('site.layouts.pre-footer')
 		@include('site.layouts.footer')

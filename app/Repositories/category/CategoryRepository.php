@@ -24,7 +24,7 @@ class CategoryRepository implements CategoryInterface
         when($request->name != null,function ($q) use($request){
             return $q->where('name','like','%'.$request->name.'%');
         })
-        ->paginate(10);
+        ->paginate(config('myConfig.paginationCount'));
     }
 
 
