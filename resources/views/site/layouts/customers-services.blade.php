@@ -1,12 +1,12 @@
-<!---------------------------start customers-services------------------------->
+<!--start customers-services-->
 <div class="position-fixed component-whatsapp">
     <button class="btn btn-my" onclick="myFunction()" id="myDIV">
-        <img src="{{ asset('public/assets_site/img/customer-service.png') }}" alt="customer-service">
+        <img src="{{ asset('public/assets_site/img/customer-service.png') }}" alt="customer-service" loading="lazy">
     </button>
     <div class="dropdown-content dropdown-menu" id="myDropdown">
         <div class="mb-2">
             <a href="https://wa.me/+966538499438" target="_blank">
-                <img src="{{ asset('public/assets_site/img/whatsapp.png') }}" alt="whatsapp">
+                <img src="{{ asset('public/assets_site/img/whatsapp.png') }}" alt="whatsapp" loading="lazy">
             </a>
         </div>
         <div class="mb-2 phone-component">
@@ -56,7 +56,7 @@
                         </div>
                         <div class="col-12 text-center">
                             <button class="btn btn-submit" type="submit">
-                                <img src="{{ asset('public/assets_site/img/Path.png') }}" alt="path">
+                                <img src="{{ asset('public/assets_site/img/Path.png') }}" alt="path" loading="lazy">
                                 {{ trans('site.Send') }}
                             </button>
                         </div>
@@ -66,4 +66,4 @@
         </div>
     </div>
 </div>
-<!---------------------------end customers-services------------------------->
+<!--end customers-services-->

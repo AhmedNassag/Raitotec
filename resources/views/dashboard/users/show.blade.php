@@ -40,7 +40,7 @@
                                     <div class=" col-xl-5 col-lg-12 col-md-12">
                                         <div class="preview-pic tab-content">
                                             <div class="tab-pane active" id="pic-1">
-                                                <img src="{{ asset('public/attachments/user/'.$user->photo) }}" alt="{{ $user->photo }}">
+                                                <img loading="lazy" src="{{ asset('public/attachments/user/'.$user->photo) }}" alt="{{ $user->photo }}">
                                             </div>
                                         </div>
                                     </div>

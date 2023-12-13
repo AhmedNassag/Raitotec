@@ -47,4 +47,11 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'roles_name' => 'array',
     ];
+
+
+    //start relations
+    public function blogs()
+    {
+        return $this->hasMany(Blog::class);
+    }
 }

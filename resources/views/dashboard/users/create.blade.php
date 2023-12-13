@@ -30,20 +30,6 @@
             <!-- row -->
             <div class="row">
                 <div class="col-lg-12 col-md-12">
-                    @if (count($errors) > 0)
-                        <div class="alert alert-danger">
-                            <button aria-label="Close" class="close" data-dismiss="alert" type="button">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            <strong>{{ trans('main.Error') }}</strong>
-                            <ul>
-                                @foreach ($errors->all() as $error)
-                                    <li>{{ $error }}</li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    @endif
-
                     <div class="card">
                         <div class="card-body">
                             <div class="col-lg-12 margin-tb">

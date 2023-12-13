@@ -7,10 +7,10 @@
     <meta name="keywords" content="">
     <meta name="description" content="أنظمة رايتو المحاسبية - Raito ERP systems">
     <meta name="author" content="hadeer hussein">
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="Website" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="{{ asset('public/assets_site/img/LOGO.png') }}" />
+    <meta property="og:title" content="حلول برمجية مبتكرة وأنظمة برمجية متخصصة - شركة رايتو">
+    <meta property="og:type" content="Website">
+    <meta property="og:url" content="https://website.raitotec.com">
+    <meta property="og:image" content="{{ asset('public/assets_site/img/LOGO.png') }}">
     <link href="assets/img/LOGO.png" rel="shortcut icon" />
     <title>أنظمة رايتو المحاسبية - Raito ERP systems</title>
     <link href="{{ asset('public/assets_site/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -25,7 +25,7 @@
     <!-------------------------start-loading-pag------------------------->
     <div class="component-stert">
         <div class="component--intro status--loaded">
-            <img src="{{ asset('public/assets_site/img/logoar.webp') }}" alt="logo">
+            <img src="{{ asset('public/assets_site/img/logoar.webp') }}" alt="logo" loading="lazy">
         </div>
     </div>
     <!---------------------------end-loading-pag------------------------->
@@ -37,8 +37,8 @@
 
                 <div class="col pt-5">
                     <div class="mx-auto text-center">
-                        <a href="index.html">
-                            <img class="logo-login" src="{{ asset('public/assets_site/img/logoar.webp') }}" alt="logo">
+                        <a href="{{ route('home.index') }}">
+                            <img loading="lazy" class="logo-login" src="{{ asset('public/assets_site/img/logoar.webp') }}" alt="logo">
                         </a>
                         <h2 class="pt-3 title-login">مرحبا بك مجددا</h2>
                         <p class="pt-3 p-login">مرحبًا بعودتك! الرجاء إدخال التفاصيل الخاصة بك</p>
@@ -50,12 +50,22 @@
                             <label for="exampleInputEmail1" class="form-label">{{ trans('main.Email Or Mobile') }}<span class="text-danger">*</span></label>
                             {{-- <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> --}}
                             <input id="identify" type="text" class="form-control floating @error('identify') is-invalid @enderror" name="identify" value="{{ old('identify') }}">
+                            @error('email')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
                         </div>
 
                         <div class="mb-3">
                             <label for="exampleInput" class="form-label">{{ trans('main.Password') }}<span class="text-danger">*</span></label>
                             {{-- <input type="password" class="form-control" id="exampleInput"> --}}
                             <input id="password" type="password" class="form-control floating @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                            @error('password')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
                         </div>
                         <div class="text-center">
                             <button type="submit" class="btn btn-primar  px-5 pt-2 pb-2">{{ trans('main.Login') }}</button>
@@ -65,7 +75,7 @@
                     <p class="p-login text-center pt-3">ليس لديك حساب <a href="{{ route('register') }}" class="mx-2 link-login">سجل هنا</a></p>
                 </div>
                 <div class="col px-0">
-                    <img class="w-100 img-login" src="{{ asset('public/assets_site/img/login.png') }}" alt="login">
+                    <img loading="lazy" class="w-100 img-login" src="{{ asset('public/assets_site/img/login.png') }}" alt="login">
                 </div>
             </div>
         </div>

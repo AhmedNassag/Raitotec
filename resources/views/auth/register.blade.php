@@ -7,10 +7,10 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="hadeer hussein">
-    <meta property="og:title" content=""/>
-    <meta property="og:type" content="Website"/>
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="{{ asset('public/assets_site//img/LOGO.png') }}"/>
+    <meta property="og:title" content="حلول برمجية مبتكرة وأنظمة برمجية متخصصة - شركة رايتو">
+    <meta property="og:type" content="Website">
+    <meta property="og:url" content="https://website.raitotec.com">
+    <meta property="og:image" content="{{ asset('public/assets_site/img/LOGO.png') }}">
     <link href="{{ asset('public/assets_site//img/LOGO.png') }}"  rel="shortcut icon"/>
     <title> أنظمة رايتو المحاسبية - Raito ERP systems</title>
     <link href="{{ asset('public/assets_site//css/bootstrap.min.css') }}" rel="stylesheet">
@@ -25,7 +25,7 @@
      <!-------------------------start-loading-pag------------------------->
      <div class="component-stert">
           <div class="component--intro status--loaded">
-              <img src="{{ asset('public/assets_site//img/logoar.webp') }}" alt="logo">
+              <img loading="lazy" src="{{ asset('public/assets_site//img/logoar.webp') }}" alt="logo">
           </div>
       </div>
       <!---------------------------end-loading-pag------------------------->
@@ -36,8 +36,8 @@
               
               <div class="col pt-5">
                 <div class="mx-auto text-center">
-                  <a href="{{ route('site.index') }}">
-                    <img class="logo-login"src="{{ asset('public/assets_site//img/logoar.webp') }}" alt="logo">
+                  <a href="{{ route('home.index') }}">
+                    <img loading="lazy" class="logo-login"src="{{ asset('public/assets_site//img/logoar.webp') }}" alt="logo">
                   </a>
                   <h2 class="pt-3 title-login">مرحبا بك ياصديقي!</h2>
                   <p class="pt-3 p-login"> انشاء حساب مجانى    </p>
@@ -73,7 +73,7 @@
 
               </div>
               <div class="col px-0">
-                <img class="w-100 img-login"src="{{ asset('public/assets_site//img/login.png') }}" alt="login">
+                <img loading="lazy" class="w-100 img-login"src="{{ asset('public/assets_site//img/login.png') }}" alt="login">
                
               </div>
            </div>

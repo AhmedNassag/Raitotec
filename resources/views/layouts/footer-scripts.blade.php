@@ -46,6 +46,17 @@
 <script src="{{URL::asset('public/assets_admin/plugins/sweet-alert/sweetalert.min.js')}}"></script>
 <script src="{{URL::asset('public/assets_admin/plugins/sweet-alert/jquery.sweet-alert.js')}}"></script>
 
+
+
+<!--Internal Fileuploads js-->
+<script src="{{URL::asset('public/assets_admin/plugins/fileuploads/js/fileupload.js')}}"></script>
+<script src="{{URL::asset('public/assets_admin/plugins/fileuploads/js/file-upload.js')}}"></script>
+<!--Internal Fancy uploader js-->
+<script src="{{URL::asset('public/assets_admin/plugins/fancyuploder/jquery.ui.widget.js')}}"></script>
+<script src="{{URL::asset('public/assets_admin/plugins/fancyuploder/jquery.fileupload.js')}}"></script>
+<script src="{{URL::asset('public/assets_admin/plugins/fancyuploder/jquery.iframe-transport.js')}}"></script>
+<script src="{{URL::asset('public/assets_admin/plugins/fancyuploder/jquery.fancy-fileupload.js')}}"></script>
+<script src="{{URL::asset('public/assets_admin/plugins/fancyuploder/fancy-uploader.js')}}"></script>
 @yield('js')
 
 

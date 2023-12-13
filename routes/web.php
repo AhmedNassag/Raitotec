@@ -2,9 +2,17 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Site\HomeController;
 use App\Http\Controllers\LangController;
 use App\Http\Controllers\GeneralController;
+use App\Http\Controllers\Site\BlogController;
+use App\Http\Controllers\Site\AboutUsController;
+use App\Http\Controllers\Site\ServiceController;
+use App\Http\Controllers\Site\ProgramController;
+use App\Http\Controllers\Site\BusinessController;
+use App\Http\Controllers\Site\ContactController;
+use App\Http\Controllers\Site\PackageController;
+use App\Http\Controllers\Site\MessageController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -26,24 +34,39 @@ Route::middleware('lang')->group( function () {
             Route::get('/en' ,  'en')->name('en');
         });
     });
-    Route::get('/', function () { return view('site.index'); })->name('site.index');
+    //home
+    Route::get('/', [HomeController::class, 'index'])->name('home.index');
+    Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-    route::get('/about', function() { return view('site.about'); })->name('site.about');
+    //business
+    Route::resource('business', BusinessController::class);
 
-    route::get('/services', function() { return view('site.services'); })->name('site.services');
+    //blog
+    Route::resource('blog', BlogController::class);
 
-    route::get('/programs', function() { return view('site.programs'); })->name('site.programs');
+    //aboutUs
+    route::resource('aboutUs', AboutUsController::class);
 
-    route::get('/business', function() { return view('site.business'); })->name('site.business');
+    //service
+    route::resource('service', ServiceController::class);
 
-    route::get('/blog', function() { return view('site.blog'); })->name('site.blog');
+    //program
+    route::resource('program', ProgramController::class);
 
-    route::get('/contact', function() { return view('site.contact'); })->name('site.contact');
+    //contact
+    route::resource('contact', ContactController::class);
+
+    //package
+    route::resource('package', PackageController::class);
+
+    //message
+    route::resource('message', MessageController::class);
+
+
 });
 /****************************** end site routes ******************************/
 
 Auth::routes();
-Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 
 

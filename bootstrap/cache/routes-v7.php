@@ -24,7 +24,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::hehbv15XOEJ4hdGm',
+            '_route' => 'generated::ghsySh6RrrEa3JB3',
           ),
           1 => NULL,
           2 => 
@@ -44,7 +44,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::kmejpWtWWn0KcoCt',
+            '_route' => 'generated::ssczcoNYByBpAS3J',
           ),
           1 => NULL,
           2 => 
@@ -104,7 +104,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'site.index',
+            '_route' => 'home.index',
           ),
           1 => NULL,
           2 => 
@@ -118,53 +118,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/about' => 
+      '/home' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'site.about',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/services' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'site.services',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/programs' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'site.programs',
+            '_route' => 'home',
           ),
           1 => NULL,
           2 => 
@@ -184,7 +144,43 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'site.business',
+            '_route' => 'business.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'business.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/business/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'business.create',
           ),
           1 => NULL,
           2 => 
@@ -204,7 +200,211 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'site.blog',
+            '_route' => 'blog.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'blog.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/blog/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'blog.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/aboutUs' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'aboutUs.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'aboutUs.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/aboutUs/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'aboutUs.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/service' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/service/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/program' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'program.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'program.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/program/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'program.create',
           ),
           1 => NULL,
           2 => 
@@ -224,7 +424,155 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'site.contact',
+            '_route' => 'contact.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'contact.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/contact/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'contact.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/package' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'package.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'package.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/package/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'package.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/message' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'message.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'message.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/message/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'message.create',
           ),
           1 => NULL,
           2 => 
@@ -261,7 +609,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::iIU0GZYvWBhQGwMm',
+            '_route' => 'generated::dnaYoF95x2lu0sys',
           ),
           1 => NULL,
           2 => 
@@ -316,7 +664,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::Hp9b19tapCNZQsOL',
+            '_route' => 'generated::FSSOAZOrA6ROFR0O',
           ),
           1 => NULL,
           2 => 
@@ -407,32 +755,12 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::UER6FgHwggRccuXg',
+            '_route' => 'generated::kJ2k4Yqonrh0hO3r',
           ),
           1 => NULL,
           2 => 
           array (
             'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/home' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'home',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
           ),
           3 => NULL,
           4 => false,
@@ -467,6 +795,26 @@ app('router')->setCompiledRoutes(
           0 => 
           array (
             '_route' => 'markAllAsRead',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard.index',
           ),
           1 => NULL,
           2 => 
@@ -632,90 +980,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/category' => 
+      '/admin/dashboard-slider' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'category.index',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/category/store' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'category.store',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/category/update' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'category.update',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/categoryDeleteSelected' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'category.deleteSelected',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/customersService' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'customersService.index',
+            '_route' => 'dashboard-slider.index',
           ),
           1 => NULL,
           2 => 
@@ -732,7 +1003,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'customersService.store',
+            '_route' => 'dashboard-slider.store',
           ),
           1 => NULL,
           2 => 
@@ -745,13 +1016,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/customersService/create' => 
+      '/admin/dashboard-slider/create' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'customersService.create',
+            '_route' => 'dashboard-slider.create',
           ),
           1 => NULL,
           2 => 
@@ -765,13 +1036,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/customersServiceDeleteSelected' => 
+      '/admin/dashboard-sliderDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'customersService.deleteSelected',
+            '_route' => 'dashboard-slider.deleteSelected',
           ),
           1 => NULL,
           2 => 
@@ -784,13 +1055,49 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/index_admin' => 
+      '/admin/dashboard-service' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'index_admin',
+            '_route' => 'dashboard-service.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-service.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-service/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-service.create',
           ),
           1 => NULL,
           2 => 
@@ -804,13 +1111,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/bid-fees' => 
+      '/admin/dashboard-serviceDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'bid-fees',
+            '_route' => 'dashboard-service.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-serviceSupport' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceSupport.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceSupport.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-serviceSupport/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceSupport.create',
           ),
           1 => NULL,
           2 => 
@@ -824,13 +1186,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/change-password' => 
+      '/admin/dashboard-serviceSupportDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'change-password',
+            '_route' => 'dashboard-serviceSupport.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-serviceReason' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceReason.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceReason.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-serviceReason/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceReason.create',
           ),
           1 => NULL,
           2 => 
@@ -844,13 +1261,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/components' => 
+      '/admin/dashboard-serviceReasonDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'components',
+            '_route' => 'dashboard-serviceReason.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-serviceStep' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceStep.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceStep.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-serviceStep/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceStep.create',
           ),
           1 => NULL,
           2 => 
@@ -864,13 +1336,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/contest-entry-fees' => 
+      '/admin/dashboard-serviceStepDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'contest-entry-fees',
+            '_route' => 'dashboard-serviceStep.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-sale' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-sale.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-sale.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-sale/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-sale.create',
           ),
           1 => NULL,
           2 => 
@@ -884,13 +1411,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/contests-fees' => 
+      '/admin/dashboard-saleDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'contests-fees',
+            '_route' => 'dashboard-sale.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-aboutUs' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-aboutUs.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-aboutUs.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-aboutUs/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-aboutUs.create',
           ),
           1 => NULL,
           2 => 
@@ -904,13 +1486,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/data-tables' => 
+      '/admin/dashboard-aboutUsDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'data-tables',
+            '_route' => 'dashboard-aboutUs.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-whyUs' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyUs.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyUs.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-whyUs/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyUs.create',
           ),
           1 => NULL,
           2 => 
@@ -924,13 +1561,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/delete-account' => 
+      '/admin/dashboard-whyUsDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'delete-account',
+            '_route' => 'dashboard-whyUs.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-whyProgram' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyProgram.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyProgram.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-whyProgram/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyProgram.create',
           ),
           1 => NULL,
           2 => 
@@ -944,13 +1636,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/email-settings' => 
+      '/admin/dashboard-whyProgramDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'email-settings',
+            '_route' => 'dashboard-whyProgram.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-program' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-program.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-program.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-program/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-program.create',
           ),
           1 => NULL,
           2 => 
@@ -964,13 +1711,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/fees' => 
+      '/admin/dashboard-programDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'fees',
+            '_route' => 'dashboard-program.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-programManage' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programManage.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programManage.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-programManage/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programManage.create',
           ),
           1 => NULL,
           2 => 
@@ -984,13 +1786,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/forgot-password' => 
+      '/admin/dashboard-programManageDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'forgot-password',
+            '_route' => 'dashboard-programManage.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-programAbility' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programAbility.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programAbility.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-programAbility/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programAbility.create',
           ),
           1 => NULL,
           2 => 
@@ -1004,13 +1861,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/form-basic-inputs' => 
+      '/admin/dashboard-programAbilityDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'form-basic-inputs',
+            '_route' => 'dashboard-programAbility.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-programPackage' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programPackage.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programPackage.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-programPackage/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programPackage.create',
           ),
           1 => NULL,
           2 => 
@@ -1024,13 +1936,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/form-horizontal' => 
+      '/admin/dashboard-programPackageDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'form-horizontal',
+            '_route' => 'dashboard-programPackage.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-blog' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-blog.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-blog.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-blog/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-blog.create',
           ),
           1 => NULL,
           2 => 
@@ -1044,13 +2011,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/form-input-groups' => 
+      '/admin/dashboard-blogDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'form-input-groups',
+            '_route' => 'dashboard-blog.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-business' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-business.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-business.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-business/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-business.create',
           ),
           1 => NULL,
           2 => 
@@ -1064,13 +2086,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/form-mask' => 
+      '/admin/dashboard-businessDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'form-mask',
+            '_route' => 'dashboard-business.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-importantCustomer' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-importantCustomer.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-importantCustomer.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-importantCustomer/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-importantCustomer.create',
           ),
           1 => NULL,
           2 => 
@@ -1084,13 +2161,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/form-validation' => 
+      '/admin/dashboard-importantCustomerDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'form-validation',
+            '_route' => 'dashboard-importantCustomer.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-companyInformation' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-companyInformation.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-companyInformation.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-companyInformation/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-companyInformation.create',
           ),
           1 => NULL,
           2 => 
@@ -1104,13 +2236,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/form-vertical' => 
+      '/admin/dashboard-companyInformationDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'form-vertical',
+            '_route' => 'dashboard-companyInformation.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-customersReview' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-customersReview.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-customersReview.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-customersReview/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-customersReview.create',
           ),
           1 => NULL,
           2 => 
@@ -1124,13 +2311,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/localization-details' => 
+      '/admin/dashboard-customersReviewDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'localization-details',
+            '_route' => 'dashboard-customersReview.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-package' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-package.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-package.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-package/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-package.create',
           ),
           1 => NULL,
           2 => 
@@ -1144,13 +2386,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/others-settings' => 
+      '/admin/dashboard-packageDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'others-settings',
+            '_route' => 'dashboard-package.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-packageBenefit' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-packageBenefit.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-packageBenefit.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-packageBenefit/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-packageBenefit.create',
           ),
           1 => NULL,
           2 => 
@@ -1164,13 +2461,68 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/payment-settings' => 
+      '/admin/dashboard-packageBenefitDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'payment-settings',
+            '_route' => 'dashboard-packageBenefit.deleteSelected',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-message' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-message.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-message.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/dashboard-message/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-message.create',
           ),
           1 => NULL,
           2 => 
@@ -1184,399 +2536,18 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/admin/profile' => 
+      '/admin/dashboard-messageDeleteSelected' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'profile',
+            '_route' => 'dashboard-message.deleteSelected',
           ),
           1 => NULL,
           2 => 
           array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/projects' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'projects',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/projects-fees' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'projects-fees',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/providers' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'providers',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/reports' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'reports',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/roles' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'roles',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/roles-permission' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'roles-permission',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/seo-settings' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'seo-settings',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/settings' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'settings',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/skills' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'skills',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/social-links' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'social-links',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/social-settings' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'social-settings',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/sub-category' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'sub-category',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/tables-basic' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'tables-basic',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/taxs' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'taxs',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/tax-types' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'tax-types',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/users' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'users',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/verify-identity' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'verify-identity',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/view-estimate' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'view-estimate',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/admin/view-invoice' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'view-invoice',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
+            'POST' => 0,
           ),
           3 => NULL,
           4 => false,
@@ -1587,7 +2558,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/password/reset/([^/]++)(*:31)|/show_file/([^/]++)/([^/]++)(*:66)|/download_file/([^/]++)/([^/]++)(*:105)|/admin/(?|role/([^/]++)(?|(*:139)|/edit(*:152)|(*:160))|user(?|/(?|edit/([^/]++)(*:193)|destroy/([^/]++)(*:217))|ShowNotification/([^/]++)(*:251)|ChangeStatus/([^/]++)(*:280))|c(?|ategory(?|/destroy/([^/]++)(*:320)|ShowNotification/([^/]++)/([^/]++)(*:362))|ustomersService/([^/]++)(?|(*:398)|/edit(*:411)|(*:419)))))/?$}sDu',
+      0 => '{^(?|/b(?|usiness/([^/]++)(?|(*:31)|/edit(*:43)|(*:50))|log/([^/]++)(?|(*:73)|/edit(*:85)|(*:92)))|/a(?|boutUs/([^/]++)(?|(*:124)|/edit(*:137)|(*:145))|dmin/(?|role/([^/]++)(?|(*:178)|/edit(*:191)|(*:199))|user(?|/(?|edit/([^/]++)(*:232)|destroy/([^/]++)(*:256))|ShowNotification/([^/]++)(*:290)|ChangeStatus/([^/]++)(*:319))|dashboard\\-(?|s(?|lider/([^/]++)(?|(*:363)|/edit(*:376)|(*:384))|ervice(?|/([^/]++)(?|(*:414)|/edit(*:427)|(*:435))|S(?|upport/([^/]++)(?|(*:466)|/edit(*:479)|(*:487))|tep/([^/]++)(?|(*:511)|/edit(*:524)|(*:532)))|Reason/([^/]++)(?|(*:560)|/edit(*:573)|(*:581)))|ale/([^/]++)(?|(*:606)|/edit(*:619)|(*:627)))|aboutUs/([^/]++)(?|(*:656)|/edit(*:669)|(*:677))|why(?|Us/([^/]++)(?|(*:706)|/edit(*:719)|(*:727))|Program/([^/]++)(?|(*:755)|/edit(*:768)|(*:776)))|p(?|rogram(?|/([^/]++)(?|(*:811)|/edit(*:824)|(*:832))|Manage/([^/]++)(?|(*:859)|/edit(*:872)|(*:880))|Ability/([^/]++)(?|(*:908)|/edit(*:921)|(*:929))|Package/([^/]++)(?|(*:957)|/edit(*:970)|(*:978)))|ackage(?|/([^/]++)(?|(*:1009)|/edit(*:1023)|(*:1032))|Benefit/([^/]++)(?|(*:1061)|/edit(*:1075)|(*:1084))))|b(?|log/([^/]++)(?|(*:1115)|/edit(*:1129)|(*:1138))|usiness/([^/]++)(?|(*:1167)|/edit(*:1181)|(*:1190)))|importantCustomer/([^/]++)(?|(*:1230)|/edit(*:1244)|(*:1253))|c(?|ompanyInformation/([^/]++)(?|(*:1296)|/edit(*:1310)|(*:1319))|ustomersReview/([^/]++)(?|(*:1355)|/edit(*:1369)|(*:1378)))|message/([^/]++)(?|(*:1408)|/edit(*:1422)|(*:1431)))))|/s(?|ervice/([^/]++)(?|(*:1467)|/edit(*:1481)|(*:1490))|how_file/([^/]++)/([^/]++)(*:1526))|/p(?|rogram/([^/]++)(?|(*:1559)|/edit(*:1573)|(*:1582))|a(?|ckage/([^/]++)(?|(*:1613)|/edit(*:1627)|(*:1636))|ssword/reset/([^/]++)(*:1667)))|/contact/([^/]++)(?|(*:1698)|/edit(*:1712)|(*:1721))|/message/([^/]++)(?|(*:1751)|/edit(*:1765)|(*:1774))|/download_file/([^/]++)/([^/]++)(*:1816))/?$}sDu',
     ),
     3 => 
     array (
@@ -1597,11 +2568,11 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'password.reset',
+            '_route' => 'business.show',
           ),
           1 => 
           array (
-            0 => 'token',
+            0 => 'business',
           ),
           2 => 
           array (
@@ -1614,18 +2585,17 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      66 => 
+      43 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'show_file',
+            '_route' => 'business.edit',
           ),
           1 => 
           array (
-            0 => 'folder_name',
-            1 => 'photo_name',
+            0 => 'business',
           ),
           2 => 
           array (
@@ -1634,22 +2604,63 @@ app('router')->setCompiledRoutes(
           ),
           3 => NULL,
           4 => false,
-          5 => true,
+          5 => false,
           6 => NULL,
         ),
       ),
-      105 => 
+      50 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'download_file',
+            '_route' => 'business.update',
           ),
           1 => 
           array (
-            0 => 'folder_name',
-            1 => 'photo_name',
+            0 => 'business',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'business.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'business',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      73 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'blog.show',
+          ),
+          1 => 
+          array (
+            0 => 'blog',
           ),
           2 => 
           array (
@@ -1662,7 +2673,160 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      139 => 
+      85 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'blog.edit',
+          ),
+          1 => 
+          array (
+            0 => 'blog',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      92 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'blog.update',
+          ),
+          1 => 
+          array (
+            0 => 'blog',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'blog.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'blog',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      124 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'aboutUs.show',
+          ),
+          1 => 
+          array (
+            0 => 'aboutU',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      137 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'aboutUs.edit',
+          ),
+          1 => 
+          array (
+            0 => 'aboutU',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      145 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'aboutUs.update',
+          ),
+          1 => 
+          array (
+            0 => 'aboutU',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'aboutUs.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'aboutU',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      178 => 
       array (
         0 => 
         array (
@@ -1685,7 +2849,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      152 => 
+      191 => 
       array (
         0 => 
         array (
@@ -1708,7 +2872,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      160 => 
+      199 => 
       array (
         0 => 
         array (
@@ -1750,7 +2914,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      193 => 
+      232 => 
       array (
         0 => 
         array (
@@ -1773,7 +2937,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      217 => 
+      256 => 
       array (
         0 => 
         array (
@@ -1795,7 +2959,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      251 => 
+      290 => 
       array (
         0 => 
         array (
@@ -1818,7 +2982,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      280 => 
+      319 => 
       array (
         0 => 
         array (
@@ -1841,40 +3005,17 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      320 => 
+      363 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'category.destroy',
+            '_route' => 'dashboard-slider.show',
           ),
           1 => 
           array (
-            0 => 'id',
-          ),
-          2 => 
-          array (
-            'DELETE' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      362 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'category.showNotification',
-          ),
-          1 => 
-          array (
-            0 => 'id',
-            1 => 'notification_id',
+            0 => 'dashboard_slider',
           ),
           2 => 
           array (
@@ -1887,40 +3028,17 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      398 => 
+      376 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'customersService.show',
+            '_route' => 'dashboard-slider.edit',
           ),
           1 => 
           array (
-            0 => 'customersService',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      411 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'customersService.edit',
-          ),
-          1 => 
-          array (
-            0 => 'customersService',
+            0 => 'dashboard_slider',
           ),
           2 => 
           array (
@@ -1933,17 +3051,17 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      419 => 
+      384 => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'customersService.update',
+            '_route' => 'dashboard-slider.update',
           ),
           1 => 
           array (
-            0 => 'customersService',
+            0 => 'dashboard_slider',
           ),
           2 => 
           array (
@@ -1959,11 +3077,11 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'customersService.destroy',
+            '_route' => 'dashboard-slider.destroy',
           ),
           1 => 
           array (
-            0 => 'customersService',
+            0 => 'dashboard_slider',
           ),
           2 => 
           array (
@@ -1974,7 +3092,2278 @@ app('router')->setCompiledRoutes(
           5 => true,
           6 => NULL,
         ),
-        2 => 
+      ),
+      414 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-service.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_service',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      427 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-service.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_service',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      435 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-service.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_service',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-service.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_service',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      466 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceSupport.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceSupport',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      479 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceSupport.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceSupport',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      487 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceSupport.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceSupport',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceSupport.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceSupport',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      511 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceStep.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceStep',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      524 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceStep.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceStep',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      532 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceStep.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceStep',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceStep.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceStep',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      560 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceReason.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceReason',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      573 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceReason.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceReason',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      581 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceReason.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceReason',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-serviceReason.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_serviceReason',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      606 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-sale.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_sale',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      619 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-sale.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_sale',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      627 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-sale.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_sale',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-sale.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_sale',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      656 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-aboutUs.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_aboutU',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      669 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-aboutUs.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_aboutU',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      677 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-aboutUs.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_aboutU',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-aboutUs.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_aboutU',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      706 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyUs.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_whyU',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      719 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyUs.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_whyU',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      727 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyUs.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_whyU',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyUs.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_whyU',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      755 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyProgram.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_whyProgram',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      768 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyProgram.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_whyProgram',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      776 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyProgram.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_whyProgram',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-whyProgram.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_whyProgram',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      811 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-program.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_program',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      824 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-program.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_program',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      832 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-program.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_program',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-program.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_program',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      859 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programManage.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programManage',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      872 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programManage.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programManage',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      880 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programManage.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programManage',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programManage.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programManage',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      908 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programAbility.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programAbility',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      921 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programAbility.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programAbility',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      929 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programAbility.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programAbility',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programAbility.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programAbility',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      957 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programPackage.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programPackage',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      970 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programPackage.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programPackage',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      978 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programPackage.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programPackage',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-programPackage.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_programPackage',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1009 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-package.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_package',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1023 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-package.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_package',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1032 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-package.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_package',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-package.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_package',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1061 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-packageBenefit.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_packageBenefit',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1075 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-packageBenefit.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_packageBenefit',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1084 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-packageBenefit.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_packageBenefit',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-packageBenefit.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_packageBenefit',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1115 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-blog.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_blog',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1129 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-blog.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_blog',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1138 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-blog.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_blog',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-blog.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_blog',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1167 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-business.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_business',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1181 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-business.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_business',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1190 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-business.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_business',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-business.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_business',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1230 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-importantCustomer.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_importantCustomer',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1244 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-importantCustomer.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_importantCustomer',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1253 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-importantCustomer.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_importantCustomer',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-importantCustomer.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_importantCustomer',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1296 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-companyInformation.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_companyInformation',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1310 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-companyInformation.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_companyInformation',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1319 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-companyInformation.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_companyInformation',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-companyInformation.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_companyInformation',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1355 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-customersReview.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_customersReview',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1369 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-customersReview.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_customersReview',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1378 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-customersReview.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_customersReview',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-customersReview.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_customersReview',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1408 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-message.show',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_message',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1422 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-message.edit',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_message',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1431 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-message.update',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_message',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard-message.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'dashboard_message',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1467 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.show',
+          ),
+          1 => 
+          array (
+            0 => 'service',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1481 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.edit',
+          ),
+          1 => 
+          array (
+            0 => 'service',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1490 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.update',
+          ),
+          1 => 
+          array (
+            0 => 'service',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'service.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'service',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1526 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'show_file',
+          ),
+          1 => 
+          array (
+            0 => 'folder_name',
+            1 => 'photo_name',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1559 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'program.show',
+          ),
+          1 => 
+          array (
+            0 => 'program',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1573 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'program.edit',
+          ),
+          1 => 
+          array (
+            0 => 'program',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1582 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'program.update',
+          ),
+          1 => 
+          array (
+            0 => 'program',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'program.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'program',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1613 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'package.show',
+          ),
+          1 => 
+          array (
+            0 => 'package',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1627 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'package.edit',
+          ),
+          1 => 
+          array (
+            0 => 'package',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1636 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'package.update',
+          ),
+          1 => 
+          array (
+            0 => 'package',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'package.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'package',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1667 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'password.reset',
+          ),
+          1 => 
+          array (
+            0 => 'token',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1698 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'contact.show',
+          ),
+          1 => 
+          array (
+            0 => 'contact',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1712 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'contact.edit',
+          ),
+          1 => 
+          array (
+            0 => 'contact',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1721 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'contact.update',
+          ),
+          1 => 
+          array (
+            0 => 'contact',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'contact.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'contact',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1751 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'message.show',
+          ),
+          1 => 
+          array (
+            0 => 'message',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1765 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'message.edit',
+          ),
+          1 => 
+          array (
+            0 => 'message',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1774 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'message.update',
+          ),
+          1 => 
+          array (
+            0 => 'message',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'message.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'message',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1816 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'download_file',
+          ),
+          1 => 
+          array (
+            0 => 'folder_name',
+            1 => 'photo_name',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
         array (
           0 => NULL,
           1 => NULL,
@@ -1990,7 +5379,7 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
-    'generated::hehbv15XOEJ4hdGm' => 
+    'generated::ghsySh6RrrEa3JB3' => 
     array (
       'methods' => 
       array (
@@ -2011,7 +5400,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
         ),
-        'as' => 'generated::hehbv15XOEJ4hdGm',
+        'as' => 'generated::ghsySh6RrrEa3JB3',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2027,7 +5416,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::kmejpWtWWn0KcoCt' => 
+    'generated::ssczcoNYByBpAS3J' => 
     array (
       'methods' => 
       array (
@@ -2044,13 +5433,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:297:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:79:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004b40000000000000000";}";s:4:"hash";s:44:"hxKIcUwDycdMqKF4GCVE5AqU/dnEOdvE59jhvCNJob4=";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004f40000000000000000";}";s:4:"hash";s:44:"Kd1VGlE3/v1QYGuSFRN2NobrlNtFfsCNMbBq2weMuCM=";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::kmejpWtWWn0KcoCt',
+        'as' => 'generated::ssczcoNYByBpAS3J',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2142,7 +5531,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'site.index' => 
+    'home.index' => 
     array (
       'methods' => 
       array (
@@ -2157,13 +5546,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'lang',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:261:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:43:"function () { return \\view(\'site.index\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004b80000000000000000";}";s:4:"hash";s:44:"0WQ2iMiuCKSyfuT/4JjagkRhoSna017fua9dCsr8w/A=";}}',
+        'uses' => 'App\\Http\\Controllers\\Site\\HomeController@index',
+        'controller' => 'App\\Http\\Controllers\\Site\\HomeController@index',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'site.index',
+        'as' => 'home.index',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2179,14 +5569,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'site.about' => 
+    'home' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'about',
+      'uri' => 'home',
       'action' => 
       array (
         'middleware' => 
@@ -2194,13 +5584,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'lang',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:260:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:42:"function() { return \\view(\'site.about\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004ba0000000000000000";}";s:4:"hash";s:44:"hP0WxyS4dpwJx28IXVRLYUo8L4xupbNuxlLkcXeQWKQ=";}}',
+        'uses' => 'App\\Http\\Controllers\\Site\\HomeController@index',
+        'controller' => 'App\\Http\\Controllers\\Site\\HomeController@index',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'site.about',
+        'as' => 'home',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2216,81 +5607,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'site.services' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'services',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'lang',
-        ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:263:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:45:"function() { return \\view(\'site.services\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004be0000000000000000";}";s:4:"hash";s:44:"D1Pp8on8wuZ/Ca6i1wpeUvg7ygYNyL2ZsUIakIwlG9s=";}}',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-        'as' => 'site.services',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'site.programs' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'programs',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'lang',
-        ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:263:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:45:"function() { return \\view(\'site.programs\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004c00000000000000000";}";s:4:"hash";s:44:"nKxob+yQZOuysbCDM2ttFoXE8SQ9QpMQaZd07EGCWVw=";}}',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-        'as' => 'site.programs',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'site.business' => 
+    'business.index' => 
     array (
       'methods' => 
       array (
@@ -2305,13 +5622,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'lang',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:263:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:45:"function() { return \\view(\'site.business\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004c20000000000000000";}";s:4:"hash";s:44:"UaNiYEnZVjcw5XcWOYe0JAXuACeE489uFGqUDiFAuXA=";}}',
+        'as' => 'business.index',
+        'uses' => 'App\\Http\\Controllers\\Site\\BusinessController@index',
+        'controller' => 'App\\Http\\Controllers\\Site\\BusinessController@index',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'site.business',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2327,7 +5645,233 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'site.blog' => 
+    'business.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'business/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'business.create',
+        'uses' => 'App\\Http\\Controllers\\Site\\BusinessController@create',
+        'controller' => 'App\\Http\\Controllers\\Site\\BusinessController@create',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'business.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'business',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'business.store',
+        'uses' => 'App\\Http\\Controllers\\Site\\BusinessController@store',
+        'controller' => 'App\\Http\\Controllers\\Site\\BusinessController@store',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'business.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'business/{business}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'business.show',
+        'uses' => 'App\\Http\\Controllers\\Site\\BusinessController@show',
+        'controller' => 'App\\Http\\Controllers\\Site\\BusinessController@show',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'business.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'business/{business}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'business.edit',
+        'uses' => 'App\\Http\\Controllers\\Site\\BusinessController@edit',
+        'controller' => 'App\\Http\\Controllers\\Site\\BusinessController@edit',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'business.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'business/{business}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'business.update',
+        'uses' => 'App\\Http\\Controllers\\Site\\BusinessController@update',
+        'controller' => 'App\\Http\\Controllers\\Site\\BusinessController@update',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'business.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'business/{business}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'business.destroy',
+        'uses' => 'App\\Http\\Controllers\\Site\\BusinessController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Site\\BusinessController@destroy',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'blog.index' => 
     array (
       'methods' => 
       array (
@@ -2342,13 +5886,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'lang',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:259:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:41:"function() { return \\view(\'site.blog\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004c40000000000000000";}";s:4:"hash";s:44:"a//uQ5Gh2CFhTKSWyjy+XtweQJNBoYKh9RRg1bTT0ro=";}}',
+        'as' => 'blog.index',
+        'uses' => 'App\\Http\\Controllers\\Site\\BlogController@index',
+        'controller' => 'App\\Http\\Controllers\\Site\\BlogController@index',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'site.blog',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2364,7 +5909,1025 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'site.contact' => 
+    'blog.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'blog/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'blog.create',
+        'uses' => 'App\\Http\\Controllers\\Site\\BlogController@create',
+        'controller' => 'App\\Http\\Controllers\\Site\\BlogController@create',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'blog.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'blog',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'blog.store',
+        'uses' => 'App\\Http\\Controllers\\Site\\BlogController@store',
+        'controller' => 'App\\Http\\Controllers\\Site\\BlogController@store',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'blog.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'blog/{blog}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'blog.show',
+        'uses' => 'App\\Http\\Controllers\\Site\\BlogController@show',
+        'controller' => 'App\\Http\\Controllers\\Site\\BlogController@show',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'blog.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'blog/{blog}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'blog.edit',
+        'uses' => 'App\\Http\\Controllers\\Site\\BlogController@edit',
+        'controller' => 'App\\Http\\Controllers\\Site\\BlogController@edit',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'blog.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'blog/{blog}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'blog.update',
+        'uses' => 'App\\Http\\Controllers\\Site\\BlogController@update',
+        'controller' => 'App\\Http\\Controllers\\Site\\BlogController@update',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'blog.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'blog/{blog}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'blog.destroy',
+        'uses' => 'App\\Http\\Controllers\\Site\\BlogController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Site\\BlogController@destroy',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'aboutUs.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'aboutUs',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'aboutUs.index',
+        'uses' => 'App\\Http\\Controllers\\Site\\AboutUsController@index',
+        'controller' => 'App\\Http\\Controllers\\Site\\AboutUsController@index',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'aboutUs.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'aboutUs/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'aboutUs.create',
+        'uses' => 'App\\Http\\Controllers\\Site\\AboutUsController@create',
+        'controller' => 'App\\Http\\Controllers\\Site\\AboutUsController@create',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'aboutUs.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'aboutUs',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'aboutUs.store',
+        'uses' => 'App\\Http\\Controllers\\Site\\AboutUsController@store',
+        'controller' => 'App\\Http\\Controllers\\Site\\AboutUsController@store',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'aboutUs.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'aboutUs/{aboutU}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'aboutUs.show',
+        'uses' => 'App\\Http\\Controllers\\Site\\AboutUsController@show',
+        'controller' => 'App\\Http\\Controllers\\Site\\AboutUsController@show',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'aboutUs.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'aboutUs/{aboutU}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'aboutUs.edit',
+        'uses' => 'App\\Http\\Controllers\\Site\\AboutUsController@edit',
+        'controller' => 'App\\Http\\Controllers\\Site\\AboutUsController@edit',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'aboutUs.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'aboutUs/{aboutU}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'aboutUs.update',
+        'uses' => 'App\\Http\\Controllers\\Site\\AboutUsController@update',
+        'controller' => 'App\\Http\\Controllers\\Site\\AboutUsController@update',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'aboutUs.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'aboutUs/{aboutU}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'aboutUs.destroy',
+        'uses' => 'App\\Http\\Controllers\\Site\\AboutUsController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Site\\AboutUsController@destroy',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'service',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'service.index',
+        'uses' => 'App\\Http\\Controllers\\Site\\ServiceController@index',
+        'controller' => 'App\\Http\\Controllers\\Site\\ServiceController@index',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'service/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'service.create',
+        'uses' => 'App\\Http\\Controllers\\Site\\ServiceController@create',
+        'controller' => 'App\\Http\\Controllers\\Site\\ServiceController@create',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'service',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'service.store',
+        'uses' => 'App\\Http\\Controllers\\Site\\ServiceController@store',
+        'controller' => 'App\\Http\\Controllers\\Site\\ServiceController@store',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'service/{service}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'service.show',
+        'uses' => 'App\\Http\\Controllers\\Site\\ServiceController@show',
+        'controller' => 'App\\Http\\Controllers\\Site\\ServiceController@show',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'service/{service}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'service.edit',
+        'uses' => 'App\\Http\\Controllers\\Site\\ServiceController@edit',
+        'controller' => 'App\\Http\\Controllers\\Site\\ServiceController@edit',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'service/{service}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'service.update',
+        'uses' => 'App\\Http\\Controllers\\Site\\ServiceController@update',
+        'controller' => 'App\\Http\\Controllers\\Site\\ServiceController@update',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'service.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'service/{service}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'service.destroy',
+        'uses' => 'App\\Http\\Controllers\\Site\\ServiceController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Site\\ServiceController@destroy',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'program.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'program',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'program.index',
+        'uses' => 'App\\Http\\Controllers\\Site\\ProgramController@index',
+        'controller' => 'App\\Http\\Controllers\\Site\\ProgramController@index',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'program.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'program/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'program.create',
+        'uses' => 'App\\Http\\Controllers\\Site\\ProgramController@create',
+        'controller' => 'App\\Http\\Controllers\\Site\\ProgramController@create',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'program.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'program',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'program.store',
+        'uses' => 'App\\Http\\Controllers\\Site\\ProgramController@store',
+        'controller' => 'App\\Http\\Controllers\\Site\\ProgramController@store',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'program.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'program/{program}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'program.show',
+        'uses' => 'App\\Http\\Controllers\\Site\\ProgramController@show',
+        'controller' => 'App\\Http\\Controllers\\Site\\ProgramController@show',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'program.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'program/{program}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'program.edit',
+        'uses' => 'App\\Http\\Controllers\\Site\\ProgramController@edit',
+        'controller' => 'App\\Http\\Controllers\\Site\\ProgramController@edit',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'program.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'program/{program}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'program.update',
+        'uses' => 'App\\Http\\Controllers\\Site\\ProgramController@update',
+        'controller' => 'App\\Http\\Controllers\\Site\\ProgramController@update',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'program.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'program/{program}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'program.destroy',
+        'uses' => 'App\\Http\\Controllers\\Site\\ProgramController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Site\\ProgramController@destroy',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'contact.index' => 
     array (
       'methods' => 
       array (
@@ -2379,13 +6942,768 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'lang',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:262:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:44:"function() { return \\view(\'site.contact\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004c60000000000000000";}";s:4:"hash";s:44:"5zVsUCsDzv4jYU8Iwz10hXm5y3GU7xxXPYmX/D+UQEc=";}}',
+        'as' => 'contact.index',
+        'uses' => 'App\\Http\\Controllers\\Site\\ContactController@index',
+        'controller' => 'App\\Http\\Controllers\\Site\\ContactController@index',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'site.contact',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'contact.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'contact/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'contact.create',
+        'uses' => 'App\\Http\\Controllers\\Site\\ContactController@create',
+        'controller' => 'App\\Http\\Controllers\\Site\\ContactController@create',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'contact.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'contact',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'contact.store',
+        'uses' => 'App\\Http\\Controllers\\Site\\ContactController@store',
+        'controller' => 'App\\Http\\Controllers\\Site\\ContactController@store',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'contact.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'contact/{contact}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'contact.show',
+        'uses' => 'App\\Http\\Controllers\\Site\\ContactController@show',
+        'controller' => 'App\\Http\\Controllers\\Site\\ContactController@show',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'contact.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'contact/{contact}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'contact.edit',
+        'uses' => 'App\\Http\\Controllers\\Site\\ContactController@edit',
+        'controller' => 'App\\Http\\Controllers\\Site\\ContactController@edit',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'contact.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'contact/{contact}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'contact.update',
+        'uses' => 'App\\Http\\Controllers\\Site\\ContactController@update',
+        'controller' => 'App\\Http\\Controllers\\Site\\ContactController@update',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'contact.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'contact/{contact}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'contact.destroy',
+        'uses' => 'App\\Http\\Controllers\\Site\\ContactController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Site\\ContactController@destroy',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'package.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'package',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'package.index',
+        'uses' => 'App\\Http\\Controllers\\Site\\PackageController@index',
+        'controller' => 'App\\Http\\Controllers\\Site\\PackageController@index',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'package.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'package/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'package.create',
+        'uses' => 'App\\Http\\Controllers\\Site\\PackageController@create',
+        'controller' => 'App\\Http\\Controllers\\Site\\PackageController@create',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'package.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'package',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'package.store',
+        'uses' => 'App\\Http\\Controllers\\Site\\PackageController@store',
+        'controller' => 'App\\Http\\Controllers\\Site\\PackageController@store',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'package.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'package/{package}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'package.show',
+        'uses' => 'App\\Http\\Controllers\\Site\\PackageController@show',
+        'controller' => 'App\\Http\\Controllers\\Site\\PackageController@show',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'package.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'package/{package}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'package.edit',
+        'uses' => 'App\\Http\\Controllers\\Site\\PackageController@edit',
+        'controller' => 'App\\Http\\Controllers\\Site\\PackageController@edit',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'package.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'package/{package}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'package.update',
+        'uses' => 'App\\Http\\Controllers\\Site\\PackageController@update',
+        'controller' => 'App\\Http\\Controllers\\Site\\PackageController@update',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'package.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'package/{package}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'package.destroy',
+        'uses' => 'App\\Http\\Controllers\\Site\\PackageController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Site\\PackageController@destroy',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'message.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'message',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'message.index',
+        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@index',
+        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@index',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'message.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'message/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'message.create',
+        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@create',
+        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@create',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'message.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'message',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'message.store',
+        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@store',
+        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@store',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'message.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'message/{message}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'message.show',
+        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@show',
+        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@show',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'message.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'message/{message}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'message.edit',
+        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@edit',
+        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@edit',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'message.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'message/{message}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'message.update',
+        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@update',
+        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@update',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'message.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'message/{message}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'lang',
+        ),
+        'as' => 'message.destroy',
+        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@destroy',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
       ),
       'fallback' => false,
       'defaults' => 
@@ -2438,7 +7756,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::iIU0GZYvWBhQGwMm' => 
+    'generated::dnaYoF95x2lu0sys' => 
     array (
       'methods' => 
       array (
@@ -2458,7 +7776,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::iIU0GZYvWBhQGwMm',
+        'as' => 'generated::dnaYoF95x2lu0sys',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2547,7 +7865,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::Hp9b19tapCNZQsOL' => 
+    'generated::FSSOAZOrA6ROFR0O' => 
     array (
       'methods' => 
       array (
@@ -2567,7 +7885,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::Hp9b19tapCNZQsOL',
+        'as' => 'generated::FSSOAZOrA6ROFR0O',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2766,7 +8084,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::UER6FgHwggRccuXg' => 
+    'generated::kJ2k4Yqonrh0hO3r' => 
     array (
       'methods' => 
       array (
@@ -2786,44 +8104,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::UER6FgHwggRccuXg',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'home' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'home',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-        ),
-        'uses' => 'App\\Http\\Controllers\\HomeController@index',
-        'controller' => 'App\\Http\\Controllers\\HomeController@index',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-        'as' => 'home',
+        'as' => 'generated::kJ2k4Yqonrh0hO3r',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2972,6 +8253,43 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'markAllAsRead',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:268:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:50:"function () { return \\view(\'admin.index_admin\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008f20000000000000000";}";s:4:"hash";s:44:"PUva/p7t54/6ydZZK7O60epRU2K93VAYnXFJAuWbGTc=";}}',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard.index',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3588,14 +8906,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'category.index' => 
+    'dashboard-slider.index' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/category',
+      'uri' => 'admin/dashboard-slider',
       'action' => 
       array (
         'middleware' => 
@@ -3603,14 +8921,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@index',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@index',
+        'as' => 'dashboard-slider.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@index',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'category.index',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3626,13 +8944,51 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'category.store' => 
+    'dashboard-slider.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-slider/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-slider.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-slider.store' => 
     array (
       'methods' => 
       array (
         0 => 'POST',
       ),
-      'uri' => 'admin/category/store',
+      'uri' => 'admin/dashboard-slider',
       'action' => 
       array (
         'middleware' => 
@@ -3640,14 +8996,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@store',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@store',
+        'as' => 'dashboard-slider.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@store',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'category.store',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3663,125 +9019,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'category.update' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'admin/category/update',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'auth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@update',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@update',
-        'namespace' => NULL,
-        'prefix' => '/admin',
-        'where' => 
-        array (
-        ),
-        'as' => 'category.update',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'category.destroy' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'DELETE',
-      ),
-      'uri' => 'admin/category/destroy/{id}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'auth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@destroy',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@destroy',
-        'namespace' => NULL,
-        'prefix' => '/admin',
-        'where' => 
-        array (
-        ),
-        'as' => 'category.destroy',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'category.deleteSelected' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'admin/categoryDeleteSelected',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'auth',
-        ),
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@deleteSelected',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@deleteSelected',
-        'namespace' => NULL,
-        'prefix' => '/admin',
-        'where' => 
-        array (
-        ),
-        'as' => 'category.deleteSelected',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'category.showNotification' => 
+    'dashboard-slider.show' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/categoryShowNotification/{id}/{notification_id}',
+      'uri' => 'admin/dashboard-slider/{dashboard_slider}',
       'action' => 
       array (
         'middleware' => 
@@ -3789,14 +9034,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@showNotification',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CategoryController@showNotification',
+        'as' => 'dashboard-slider.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@show',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'category.showNotification',
       ),
       'fallback' => false,
       'defaults' => 
@@ -3812,14 +9057,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'customersService.index' => 
+    'dashboard-slider.edit' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/customersService',
+      'uri' => 'admin/dashboard-slider/{dashboard_slider}/edit',
       'action' => 
       array (
         'middleware' => 
@@ -3827,9 +9072,9 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'as' => 'customersService.index',
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@index',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@index',
+        'as' => 'dashboard-slider.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@edit',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
@@ -3850,165 +9095,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'customersService.create' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'admin/customersService/create',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'auth',
-        ),
-        'as' => 'customersService.create',
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@create',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@create',
-        'namespace' => NULL,
-        'prefix' => '/admin',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'customersService.store' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'admin/customersService',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'auth',
-        ),
-        'as' => 'customersService.store',
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@store',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@store',
-        'namespace' => NULL,
-        'prefix' => '/admin',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'customersService.show' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'admin/customersService/{customersService}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'auth',
-        ),
-        'as' => 'customersService.show',
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@show',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@show',
-        'namespace' => NULL,
-        'prefix' => '/admin',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'customersService.edit' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'admin/customersService/{customersService}/edit',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'auth',
-        ),
-        'as' => 'customersService.edit',
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@edit',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@edit',
-        'namespace' => NULL,
-        'prefix' => '/admin',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'customersService.update' => 
+    'dashboard-slider.update' => 
     array (
       'methods' => 
       array (
         0 => 'PUT',
         1 => 'PATCH',
       ),
-      'uri' => 'admin/customersService/{customersService}',
+      'uri' => 'admin/dashboard-slider/{dashboard_slider}',
       'action' => 
       array (
         'middleware' => 
@@ -4016,9 +9110,9 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'as' => 'customersService.update',
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@update',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@update',
+        'as' => 'dashboard-slider.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@update',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
@@ -4039,13 +9133,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'customersService.destroy' => 
+    'dashboard-slider.destroy' => 
     array (
       'methods' => 
       array (
         0 => 'DELETE',
       ),
-      'uri' => 'admin/customersService/{customersService}',
+      'uri' => 'admin/dashboard-slider/{dashboard_slider}',
       'action' => 
       array (
         'middleware' => 
@@ -4053,9 +9147,9 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'as' => 'customersService.destroy',
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@destroy',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@destroy',
+        'as' => 'dashboard-slider.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@destroy',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
@@ -4076,13 +9170,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'customersService.deleteSelected' => 
+    'dashboard-slider.deleteSelected' => 
     array (
       'methods' => 
       array (
         0 => 'POST',
       ),
-      'uri' => 'admin/customersServiceDeleteSelected',
+      'uri' => 'admin/dashboard-sliderDeleteSelected',
       'action' => 
       array (
         'middleware' => 
@@ -4090,14 +9184,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@deleteSelected',
-        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersServiceController@deleteSelected',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@deleteSelected',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'customersService.deleteSelected',
+        'as' => 'dashboard-slider.deleteSelected',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4113,14 +9207,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'index_admin' => 
+    'dashboard-service.index' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/index_admin',
+      'uri' => 'admin/dashboard-service',
       'action' => 
       array (
         'middleware' => 
@@ -4128,13 +9222,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:268:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:50:"function () { return \\view(\'admin.index_admin\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000000089e0000000000000000";}";s:4:"hash";s:44:"3snQpakAMzNatHdMVD/HXUq3L73tl1PWvemorYE1bxI=";}}',
+        'as' => 'dashboard-service.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@index',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'index_admin',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4150,14 +9245,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'bid-fees' => 
+    'dashboard-service.create' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/bid-fees',
+      'uri' => 'admin/dashboard-service/create',
       'action' => 
       array (
         'middleware' => 
@@ -4165,13 +9260,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:265:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:47:"function () { return \\view(\'admin.bid-fees\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008a80000000000000000";}";s:4:"hash";s:44:"vTSBQDdWuZx696wS0x/7JoeuaJ6IXD98RlcobzxrCRQ=";}}',
+        'as' => 'dashboard-service.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@create',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'bid-fees',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4187,14 +9283,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'change-password' => 
+    'dashboard-service.store' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'POST',
       ),
-      'uri' => 'admin/change-password',
+      'uri' => 'admin/dashboard-service',
       'action' => 
       array (
         'middleware' => 
@@ -4202,13 +9297,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:272:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:54:"function () { return \\view(\'admin.change-password\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008aa0000000000000000";}";s:4:"hash";s:44:"v8w4sqxYp5/U4BrZLhHBJIn6RYNIkjiKjQjgo9YRs+Y=";}}',
+        'as' => 'dashboard-service.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@store',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'change-password',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4224,14 +9320,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'components' => 
+    'dashboard-service.show' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/components',
+      'uri' => 'admin/dashboard-service/{dashboard_service}',
       'action' => 
       array (
         'middleware' => 
@@ -4239,13 +9335,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:267:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:49:"function () { return \\view(\'admin.components\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008ac0000000000000000";}";s:4:"hash";s:44:"d/lbJrJqE4aDkOoG0w7cP90Bv36H6jQRYKgb/MbMCS8=";}}',
+        'as' => 'dashboard-service.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@show',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'components',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4261,14 +9358,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'contest-entry-fees' => 
+    'dashboard-service.edit' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/contest-entry-fees',
+      'uri' => 'admin/dashboard-service/{dashboard_service}/edit',
       'action' => 
       array (
         'middleware' => 
@@ -4276,13 +9373,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:275:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:57:"function () { return \\view(\'admin.contest-entry-fees\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008ae0000000000000000";}";s:4:"hash";s:44:"LGU8NHKiEKLfA0CW7zcp2B0/cBsY3slkJqnotwac83Y=";}}',
+        'as' => 'dashboard-service.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@edit',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'contest-entry-fees',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4298,14 +9396,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'contests-fees' => 
+    'dashboard-service.update' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'PUT',
+        1 => 'PATCH',
       ),
-      'uri' => 'admin/contests-fees',
+      'uri' => 'admin/dashboard-service/{dashboard_service}',
       'action' => 
       array (
         'middleware' => 
@@ -4313,13 +9411,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:270:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:52:"function () { return \\view(\'admin.contests-fees\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008b00000000000000000";}";s:4:"hash";s:44:"ldK/1564RPs3ak8VE88QqtutAV+bKpQoXbaKSVIVp0k=";}}',
+        'as' => 'dashboard-service.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@update',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'contests-fees',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4335,14 +9434,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'data-tables' => 
+    'dashboard-service.destroy' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'DELETE',
       ),
-      'uri' => 'admin/data-tables',
+      'uri' => 'admin/dashboard-service/{dashboard_service}',
       'action' => 
       array (
         'middleware' => 
@@ -4350,13 +9448,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:268:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:50:"function () { return \\view(\'admin.data-tables\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008b20000000000000000";}";s:4:"hash";s:44:"84xbVSfQH9OuqH3YAx/l2xj1Y14+jnGu4RlsaVDgfeA=";}}',
+        'as' => 'dashboard-service.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@destroy',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'data-tables',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4372,14 +9471,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'delete-account' => 
+    'dashboard-service.deleteSelected' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'POST',
       ),
-      'uri' => 'admin/delete-account',
+      'uri' => 'admin/dashboard-serviceDeleteSelected',
       'action' => 
       array (
         'middleware' => 
@@ -4387,13 +9485,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:271:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:53:"function () { return \\view(\'admin.delete-account\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008b40000000000000000";}";s:4:"hash";s:44:"T84Tz2knFhMYhOhEIxEXqE176rfvZE1FMc406Aeuiok=";}}',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@deleteSelected',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'delete-account',
+        'as' => 'dashboard-service.deleteSelected',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4409,14 +9508,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'email-settings' => 
+    'dashboard-serviceSupport.index' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/email-settings',
+      'uri' => 'admin/dashboard-serviceSupport',
       'action' => 
       array (
         'middleware' => 
@@ -4424,13 +9523,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:271:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:53:"function () { return \\view(\'admin.email-settings\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008b60000000000000000";}";s:4:"hash";s:44:"vnyjRpdA1++1g0JTF0n7iBwCOH6gdblLao8rGnoNVeU=";}}',
+        'as' => 'dashboard-serviceSupport.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@index',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'email-settings',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4446,14 +9546,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'fees' => 
+    'dashboard-serviceSupport.create' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/fees',
+      'uri' => 'admin/dashboard-serviceSupport/create',
       'action' => 
       array (
         'middleware' => 
@@ -4461,13 +9561,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:261:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:43:"function () { return \\view(\'admin.fees\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008b80000000000000000";}";s:4:"hash";s:44:"lWYDDgLZ5Iqtw4d+nKcV5H/Jkynj/r71IXKrjWxP95g=";}}',
+        'as' => 'dashboard-serviceSupport.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@create',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'fees',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4483,14 +9584,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'forgot-password' => 
+    'dashboard-serviceSupport.store' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'POST',
       ),
-      'uri' => 'admin/forgot-password',
+      'uri' => 'admin/dashboard-serviceSupport',
       'action' => 
       array (
         'middleware' => 
@@ -4498,13 +9598,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:272:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:54:"function () { return \\view(\'admin.forgot-password\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008ba0000000000000000";}";s:4:"hash";s:44:"oCBhBIww6urdegyydCGDKpe2orFjsz8Gn07+hRNyT+I=";}}',
+        'as' => 'dashboard-serviceSupport.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@store',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'forgot-password',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4520,14 +9621,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'form-basic-inputs' => 
+    'dashboard-serviceSupport.show' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/form-basic-inputs',
+      'uri' => 'admin/dashboard-serviceSupport/{dashboard_serviceSupport}',
       'action' => 
       array (
         'middleware' => 
@@ -4535,13 +9636,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:274:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:56:"function () { return \\view(\'admin.form-basic-inputs\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008bc0000000000000000";}";s:4:"hash";s:44:"NJ8fBUgXW04CXtr79DH0gkPRV+8+6WV0pcdADl4+FtI=";}}',
+        'as' => 'dashboard-serviceSupport.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@show',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'form-basic-inputs',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4557,14 +9659,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'form-horizontal' => 
+    'dashboard-serviceSupport.edit' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/form-horizontal',
+      'uri' => 'admin/dashboard-serviceSupport/{dashboard_serviceSupport}/edit',
       'action' => 
       array (
         'middleware' => 
@@ -4572,13 +9674,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:272:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:54:"function () { return \\view(\'admin.form-horizontal\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008be0000000000000000";}";s:4:"hash";s:44:"8B/Uga0gnk/Z6AYmGYZD8hHXDUECsAmoXTFjBbg5ti0=";}}',
+        'as' => 'dashboard-serviceSupport.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@edit',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'form-horizontal',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4594,14 +9697,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'form-input-groups' => 
+    'dashboard-serviceSupport.update' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'PUT',
+        1 => 'PATCH',
       ),
-      'uri' => 'admin/form-input-groups',
+      'uri' => 'admin/dashboard-serviceSupport/{dashboard_serviceSupport}',
       'action' => 
       array (
         'middleware' => 
@@ -4609,13 +9712,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:274:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:56:"function () { return \\view(\'admin.form-input-groups\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008c00000000000000000";}";s:4:"hash";s:44:"0pMMBbZEaoxk25jz70FgZPq0Q3hYitKynBqRo9+5PF8=";}}',
+        'as' => 'dashboard-serviceSupport.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@update',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'form-input-groups',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4631,14 +9735,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'form-mask' => 
+    'dashboard-serviceSupport.destroy' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'DELETE',
       ),
-      'uri' => 'admin/form-mask',
+      'uri' => 'admin/dashboard-serviceSupport/{dashboard_serviceSupport}',
       'action' => 
       array (
         'middleware' => 
@@ -4646,13 +9749,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:266:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:48:"function () { return \\view(\'admin.form-mask\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008c20000000000000000";}";s:4:"hash";s:44:"CfVZ2S2FRLnvGYZROH1ZCym6dXbt96h6aQmtP1MxlIs=";}}',
+        'as' => 'dashboard-serviceSupport.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@destroy',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'form-mask',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4668,14 +9772,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'form-validation' => 
+    'dashboard-serviceSupport.deleteSelected' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'POST',
       ),
-      'uri' => 'admin/form-validation',
+      'uri' => 'admin/dashboard-serviceSupportDeleteSelected',
       'action' => 
       array (
         'middleware' => 
@@ -4683,13 +9786,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:272:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:54:"function () { return \\view(\'admin.form-validation\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008c40000000000000000";}";s:4:"hash";s:44:"NFpaSAm0sQAF1WNDXu1idq8w7kyrwbaNtreiJ/rIuNE=";}}',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@deleteSelected',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'form-validation',
+        'as' => 'dashboard-serviceSupport.deleteSelected',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4705,14 +9809,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'form-vertical' => 
+    'dashboard-serviceReason.index' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/form-vertical',
+      'uri' => 'admin/dashboard-serviceReason',
       'action' => 
       array (
         'middleware' => 
@@ -4720,13 +9824,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:270:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:52:"function () { return \\view(\'admin.form-vertical\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008c60000000000000000";}";s:4:"hash";s:44:"mXpViDDcbEU9u/Nid2upZfNot0GH17DblbNdvy8E9Z0=";}}',
+        'as' => 'dashboard-serviceReason.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@index',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'form-vertical',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4742,14 +9847,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'localization-details' => 
+    'dashboard-serviceReason.create' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/localization-details',
+      'uri' => 'admin/dashboard-serviceReason/create',
       'action' => 
       array (
         'middleware' => 
@@ -4757,13 +9862,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:277:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:59:"function () { return \\view(\'admin.localization-details\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008c80000000000000000";}";s:4:"hash";s:44:"ZA4oIve7Hje4kBkteYlFrzf+w82GllQLy9PnQvX09cM=";}}',
+        'as' => 'dashboard-serviceReason.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@create',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'localization-details',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4779,14 +9885,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'others-settings' => 
+    'dashboard-serviceReason.store' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'POST',
       ),
-      'uri' => 'admin/others-settings',
+      'uri' => 'admin/dashboard-serviceReason',
       'action' => 
       array (
         'middleware' => 
@@ -4794,13 +9899,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:272:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:54:"function () { return \\view(\'admin.others-settings\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008ca0000000000000000";}";s:4:"hash";s:44:"pwv8+1M93vtK+i6V1PXE1OO60OYWrP2LP999szfVXP8=";}}',
+        'as' => 'dashboard-serviceReason.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@store',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'others-settings',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4816,14 +9922,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'payment-settings' => 
+    'dashboard-serviceReason.show' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/payment-settings',
+      'uri' => 'admin/dashboard-serviceReason/{dashboard_serviceReason}',
       'action' => 
       array (
         'middleware' => 
@@ -4831,13 +9937,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:273:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:55:"function () { return \\view(\'admin.payment-settings\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008ce0000000000000000";}";s:4:"hash";s:44:"cM0ek0cpQservqQ7dB2Lvd57sDjacpVKTHHsA6kXnII=";}}',
+        'as' => 'dashboard-serviceReason.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@show',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'payment-settings',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4853,14 +9960,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'profile' => 
+    'dashboard-serviceReason.edit' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/profile',
+      'uri' => 'admin/dashboard-serviceReason/{dashboard_serviceReason}/edit',
       'action' => 
       array (
         'middleware' => 
@@ -4868,13 +9975,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:264:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:46:"function () { return \\view(\'admin.profile\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008cd0000000000000000";}";s:4:"hash";s:44:"6ECo0u22JmCEGEcdRWfgI6EQtbxMaU7XLjHZZTAO5TU=";}}',
+        'as' => 'dashboard-serviceReason.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@edit',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'profile',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4890,14 +9998,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'projects' => 
+    'dashboard-serviceReason.update' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'PUT',
+        1 => 'PATCH',
       ),
-      'uri' => 'admin/projects',
+      'uri' => 'admin/dashboard-serviceReason/{dashboard_serviceReason}',
       'action' => 
       array (
         'middleware' => 
@@ -4905,13 +10013,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:265:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:47:"function () { return \\view(\'admin.projects\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008d00000000000000000";}";s:4:"hash";s:44:"KmAyptm7elH9cuhteTtcS9RCyRyBKdSe70qA/MpJkBM=";}}',
+        'as' => 'dashboard-serviceReason.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@update',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'projects',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4927,14 +10036,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'projects-fees' => 
+    'dashboard-serviceReason.destroy' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'DELETE',
       ),
-      'uri' => 'admin/projects-fees',
+      'uri' => 'admin/dashboard-serviceReason/{dashboard_serviceReason}',
       'action' => 
       array (
         'middleware' => 
@@ -4942,13 +10050,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:270:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:52:"function () { return \\view(\'admin.projects-fees\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008d20000000000000000";}";s:4:"hash";s:44:"fW9viocTIeMqB1GS4A93Do1mEfeujVATkGu98HHH7Bw=";}}',
+        'as' => 'dashboard-serviceReason.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@destroy',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'projects-fees',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4964,14 +10073,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'providers' => 
+    'dashboard-serviceReason.deleteSelected' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'POST',
       ),
-      'uri' => 'admin/providers',
+      'uri' => 'admin/dashboard-serviceReasonDeleteSelected',
       'action' => 
       array (
         'middleware' => 
@@ -4979,13 +10087,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:266:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:48:"function () { return \\view(\'admin.providers\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008d40000000000000000";}";s:4:"hash";s:44:"/63Pw4zdAg9kiiF1yiyoRaB6klzKIpjPwzxDEVkmEGY=";}}',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@deleteSelected',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'providers',
+        'as' => 'dashboard-serviceReason.deleteSelected',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5001,14 +10110,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'reports' => 
+    'dashboard-serviceStep.index' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/reports',
+      'uri' => 'admin/dashboard-serviceStep',
       'action' => 
       array (
         'middleware' => 
@@ -5016,13 +10125,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:264:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:46:"function () { return \\view(\'admin.reports\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008d60000000000000000";}";s:4:"hash";s:44:"jFp5PbB6pHrpHxoibuYNMD8/GGWZ8C3O2je0cp30DhU=";}}',
+        'as' => 'dashboard-serviceStep.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@index',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'reports',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5038,14 +10148,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'roles' => 
+    'dashboard-serviceStep.create' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/roles',
+      'uri' => 'admin/dashboard-serviceStep/create',
       'action' => 
       array (
         'middleware' => 
@@ -5053,13 +10163,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:262:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:44:"function () { return \\view(\'admin.roles\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008d80000000000000000";}";s:4:"hash";s:44:"YgRRIIF7FkS6+mheGIay0tELa6VgIhWM9gF4zvpSJkY=";}}',
+        'as' => 'dashboard-serviceStep.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@create',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'roles',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5075,14 +10186,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'roles-permission' => 
+    'dashboard-serviceStep.store' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'POST',
       ),
-      'uri' => 'admin/roles-permission',
+      'uri' => 'admin/dashboard-serviceStep',
       'action' => 
       array (
         'middleware' => 
@@ -5090,13 +10200,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:273:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:55:"function () { return \\view(\'admin.roles-permission\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008da0000000000000000";}";s:4:"hash";s:44:"b4vxZTSu5K+x4fuLiTVrsAK1/tBR8OvXWcfYamNGGvY=";}}',
+        'as' => 'dashboard-serviceStep.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@store',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'roles-permission',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5112,14 +10223,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'seo-settings' => 
+    'dashboard-serviceStep.show' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/seo-settings',
+      'uri' => 'admin/dashboard-serviceStep/{dashboard_serviceStep}',
       'action' => 
       array (
         'middleware' => 
@@ -5127,13 +10238,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:269:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:51:"function () { return \\view(\'admin.seo-settings\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008dc0000000000000000";}";s:4:"hash";s:44:"cP0DLxYi5dgDSEXysyJTYp2zIdSSG3c+tnOaqE26Sqg=";}}',
+        'as' => 'dashboard-serviceStep.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@show',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'seo-settings',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5149,14 +10261,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'settings' => 
+    'dashboard-serviceStep.edit' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/settings',
+      'uri' => 'admin/dashboard-serviceStep/{dashboard_serviceStep}/edit',
       'action' => 
       array (
         'middleware' => 
@@ -5164,13 +10276,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:265:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:47:"function () { return \\view(\'admin.settings\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008de0000000000000000";}";s:4:"hash";s:44:"LX/PHfMFOdwJAyktfq9zBJpldYbUkb7JJlq2PidoYm8=";}}',
+        'as' => 'dashboard-serviceStep.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@edit',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'settings',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5186,14 +10299,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'skills' => 
+    'dashboard-serviceStep.update' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'PUT',
+        1 => 'PATCH',
       ),
-      'uri' => 'admin/skills',
+      'uri' => 'admin/dashboard-serviceStep/{dashboard_serviceStep}',
       'action' => 
       array (
         'middleware' => 
@@ -5201,13 +10314,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:263:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:45:"function () { return \\view(\'admin.skills\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008e00000000000000000";}";s:4:"hash";s:44:"f9a02xIQgpCkPdb1tWoi9u5NW5B8OvHw6xkO9lpACio=";}}',
+        'as' => 'dashboard-serviceStep.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@update',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'skills',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5223,14 +10337,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'social-links' => 
+    'dashboard-serviceStep.destroy' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'DELETE',
       ),
-      'uri' => 'admin/social-links',
+      'uri' => 'admin/dashboard-serviceStep/{dashboard_serviceStep}',
       'action' => 
       array (
         'middleware' => 
@@ -5238,13 +10351,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:269:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:51:"function () { return \\view(\'admin.social-links\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008e20000000000000000";}";s:4:"hash";s:44:"Hs8B8H9123dOHf9uuT4AKUV9nxS+k4VR2Z/YYqyyzow=";}}',
+        'as' => 'dashboard-serviceStep.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@destroy',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'social-links',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5260,14 +10374,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'social-settings' => 
+    'dashboard-serviceStep.deleteSelected' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'POST',
       ),
-      'uri' => 'admin/social-settings',
+      'uri' => 'admin/dashboard-serviceStepDeleteSelected',
       'action' => 
       array (
         'middleware' => 
@@ -5275,13 +10388,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:272:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:54:"function () { return \\view(\'admin.social-settings\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008e40000000000000000";}";s:4:"hash";s:44:"SFHAGAFf8GsjvYefR3QhSGocOolM/dNyCIoJI9MM+fM=";}}',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@deleteSelected',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'social-settings',
+        'as' => 'dashboard-serviceStep.deleteSelected',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5297,14 +10411,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'sub-category' => 
+    'dashboard-sale.index' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/sub-category',
+      'uri' => 'admin/dashboard-sale',
       'action' => 
       array (
         'middleware' => 
@@ -5312,13 +10426,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:269:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:51:"function () { return \\view(\'admin.sub-category\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008e60000000000000000";}";s:4:"hash";s:44:"403kba3vUG6mXzgOF7PCGMV23OEt7SaYugteWwjS4bQ=";}}',
+        'as' => 'dashboard-sale.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@index',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'sub-category',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5334,14 +10449,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'tables-basic' => 
+    'dashboard-sale.create' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/tables-basic',
+      'uri' => 'admin/dashboard-sale/create',
       'action' => 
       array (
         'middleware' => 
@@ -5349,13 +10464,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:269:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:51:"function () { return \\view(\'admin.tables-basic\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008e80000000000000000";}";s:4:"hash";s:44:"SggZ4AQ+w5TixkQOJ9/ZtO7K2HLaCj0B8Y4MDwdTVN8=";}}',
+        'as' => 'dashboard-sale.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@create',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'tables-basic',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5371,14 +10487,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'taxs' => 
+    'dashboard-sale.store' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'POST',
       ),
-      'uri' => 'admin/taxs',
+      'uri' => 'admin/dashboard-sale',
       'action' => 
       array (
         'middleware' => 
@@ -5386,13 +10501,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:261:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:43:"function () { return \\view(\'admin.taxs\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008ea0000000000000000";}";s:4:"hash";s:44:"Gac0o7p/t2erR1+NY30lVD2kcnGSPOmOMPiF4FwH4DA=";}}',
+        'as' => 'dashboard-sale.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@store',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'taxs',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5408,14 +10524,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'tax-types' => 
+    'dashboard-sale.show' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/tax-types',
+      'uri' => 'admin/dashboard-sale/{dashboard_sale}',
       'action' => 
       array (
         'middleware' => 
@@ -5423,13 +10539,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:266:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:48:"function () { return \\view(\'admin.tax-types\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008ec0000000000000000";}";s:4:"hash";s:44:"cc2+wHcXd9PtiqSz7y2AXKsbjvzoV7LG7oezhgXRyiQ=";}}',
+        'as' => 'dashboard-sale.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@show',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'tax-types',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5445,14 +10562,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'users' => 
+    'dashboard-sale.edit' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'admin/users',
+      'uri' => 'admin/dashboard-sale/{dashboard_sale}/edit',
       'action' => 
       array (
         'middleware' => 
@@ -5460,13 +10577,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:262:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:44:"function () { return \\view(\'admin.users\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008ee0000000000000000";}";s:4:"hash";s:44:"/5IPvp6HYXlyA6fPOiBFCl9tMjmqgyj9xTVcWeoRY58=";}}',
+        'as' => 'dashboard-sale.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@edit',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'users',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5482,14 +10600,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'verify-identity' => 
+    'dashboard-sale.update' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'PUT',
+        1 => 'PATCH',
       ),
-      'uri' => 'admin/verify-identity',
+      'uri' => 'admin/dashboard-sale/{dashboard_sale}',
       'action' => 
       array (
         'middleware' => 
@@ -5497,13 +10615,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:272:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:54:"function () { return \\view(\'admin.verify-identity\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008f00000000000000000";}";s:4:"hash";s:44:"/MmKE1iRarcZeshTm6Stcb5WE8kGXwDTBQV7fsq0WKY=";}}',
+        'as' => 'dashboard-sale.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@update',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'verify-identity',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5519,14 +10638,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'view-estimate' => 
+    'dashboard-sale.destroy' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'DELETE',
       ),
-      'uri' => 'admin/view-estimate',
+      'uri' => 'admin/dashboard-sale/{dashboard_sale}',
       'action' => 
       array (
         'middleware' => 
@@ -5534,13 +10652,14 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:270:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:52:"function () { return \\view(\'admin.view-estimate\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008f20000000000000000";}";s:4:"hash";s:44:"CPdwgtOzzc5gkgAt8lNNGMvEvhwXscfdmyiy6AZAAjg=";}}',
+        'as' => 'dashboard-sale.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@destroy',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'view-estimate',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5556,14 +10675,13 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'view-invoice' => 
+    'dashboard-sale.deleteSelected' => 
     array (
       'methods' => 
       array (
-        0 => 'GET',
-        1 => 'HEAD',
+        0 => 'POST',
       ),
-      'uri' => 'admin/view-invoice',
+      'uri' => 'admin/dashboard-saleDeleteSelected',
       'action' => 
       array (
         'middleware' => 
@@ -5571,13 +10689,4529 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'auth',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:269:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:51:"function () { return \\view(\'admin.view-invoice\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008f40000000000000000";}";s:4:"hash";s:44:"KBbE9kUxlDbuOpEcyWsfWSkK9AnVij3Pyo2bGXtJbsg=";}}',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@deleteSelected',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'view-invoice',
+        'as' => 'dashboard-sale.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-aboutUs.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-aboutUs',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-aboutUs.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-aboutUs.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-aboutUs/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-aboutUs.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-aboutUs.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-aboutUs',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-aboutUs.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-aboutUs.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-aboutUs/{dashboard_aboutU}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-aboutUs.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-aboutUs.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-aboutUs/{dashboard_aboutU}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-aboutUs.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-aboutUs.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-aboutUs/{dashboard_aboutU}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-aboutUs.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-aboutUs.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-aboutUs/{dashboard_aboutU}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-aboutUs.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-aboutUs.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-aboutUsDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-aboutUs.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyUs.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-whyUs',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyUs.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyUs.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-whyUs/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyUs.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyUs.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-whyUs',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyUs.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyUs.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-whyUs/{dashboard_whyU}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyUs.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyUs.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-whyUs/{dashboard_whyU}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyUs.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyUs.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-whyUs/{dashboard_whyU}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyUs.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyUs.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-whyUs/{dashboard_whyU}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyUs.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyUs.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-whyUsDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-whyUs.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyProgram.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-whyProgram',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyProgram.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyProgram.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-whyProgram/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyProgram.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyProgram.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-whyProgram',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyProgram.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyProgram.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-whyProgram/{dashboard_whyProgram}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyProgram.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyProgram.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-whyProgram/{dashboard_whyProgram}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyProgram.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyProgram.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-whyProgram/{dashboard_whyProgram}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyProgram.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyProgram.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-whyProgram/{dashboard_whyProgram}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-whyProgram.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-whyProgram.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-whyProgramDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-whyProgram.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-program.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-program',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-program.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-program.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-program/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-program.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-program.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-program',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-program.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-program.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-program/{dashboard_program}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-program.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-program.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-program/{dashboard_program}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-program.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-program.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-program/{dashboard_program}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-program.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-program.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-program/{dashboard_program}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-program.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-program.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-programDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-program.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programManage.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programManage',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programManage.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programManage.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programManage/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programManage.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programManage.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-programManage',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programManage.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programManage.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programManage/{dashboard_programManage}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programManage.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programManage.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programManage/{dashboard_programManage}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programManage.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programManage.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-programManage/{dashboard_programManage}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programManage.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programManage.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-programManage/{dashboard_programManage}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programManage.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programManage.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-programManageDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-programManage.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programAbility.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programAbility',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programAbility.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programAbility.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programAbility/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programAbility.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programAbility.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-programAbility',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programAbility.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programAbility.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programAbility/{dashboard_programAbility}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programAbility.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programAbility.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programAbility/{dashboard_programAbility}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programAbility.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programAbility.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-programAbility/{dashboard_programAbility}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programAbility.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programAbility.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-programAbility/{dashboard_programAbility}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programAbility.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programAbility.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-programAbilityDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-programAbility.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programPackage.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programPackage',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programPackage.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programPackage.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programPackage/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programPackage.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programPackage.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-programPackage',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programPackage.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programPackage.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programPackage/{dashboard_programPackage}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programPackage.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programPackage.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-programPackage/{dashboard_programPackage}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programPackage.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programPackage.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-programPackage/{dashboard_programPackage}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programPackage.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programPackage.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-programPackage/{dashboard_programPackage}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-programPackage.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-programPackage.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-programPackageDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-programPackage.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-blog.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-blog',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-blog.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-blog.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-blog/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-blog.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-blog.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-blog',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-blog.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-blog.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-blog/{dashboard_blog}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-blog.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-blog.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-blog/{dashboard_blog}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-blog.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-blog.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-blog/{dashboard_blog}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-blog.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-blog.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-blog/{dashboard_blog}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-blog.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-blog.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-blogDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-blog.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-business.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-business',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-business.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-business.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-business/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-business.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-business.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-business',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-business.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-business.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-business/{dashboard_business}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-business.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-business.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-business/{dashboard_business}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-business.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-business.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-business/{dashboard_business}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-business.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-business.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-business/{dashboard_business}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-business.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-business.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-businessDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-business.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-importantCustomer.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-importantCustomer',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-importantCustomer.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-importantCustomer.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-importantCustomer/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-importantCustomer.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-importantCustomer.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-importantCustomer',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-importantCustomer.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-importantCustomer.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-importantCustomer/{dashboard_importantCustomer}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-importantCustomer.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-importantCustomer.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-importantCustomer/{dashboard_importantCustomer}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-importantCustomer.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-importantCustomer.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-importantCustomer/{dashboard_importantCustomer}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-importantCustomer.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-importantCustomer.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-importantCustomer/{dashboard_importantCustomer}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-importantCustomer.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-importantCustomer.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-importantCustomerDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-importantCustomer.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-companyInformation.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-companyInformation',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-companyInformation.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-companyInformation.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-companyInformation/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-companyInformation.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-companyInformation.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-companyInformation',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-companyInformation.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-companyInformation.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-companyInformation/{dashboard_companyInformation}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-companyInformation.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-companyInformation.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-companyInformation/{dashboard_companyInformation}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-companyInformation.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-companyInformation.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-companyInformation/{dashboard_companyInformation}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-companyInformation.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-companyInformation.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-companyInformation/{dashboard_companyInformation}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-companyInformation.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-companyInformation.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-companyInformationDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-companyInformation.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-customersReview.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-customersReview',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-customersReview.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-customersReview.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-customersReview/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-customersReview.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-customersReview.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-customersReview',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-customersReview.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-customersReview.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-customersReview/{dashboard_customersReview}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-customersReview.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-customersReview.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-customersReview/{dashboard_customersReview}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-customersReview.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-customersReview.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-customersReview/{dashboard_customersReview}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-customersReview.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-customersReview.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-customersReview/{dashboard_customersReview}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-customersReview.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-customersReview.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-customersReviewDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-customersReview.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-package.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-package',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-package.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-package.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-package/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-package.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-package.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-package',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-package.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-package.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-package/{dashboard_package}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-package.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-package.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-package/{dashboard_package}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-package.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-package.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-package/{dashboard_package}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-package.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-package.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-package/{dashboard_package}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-package.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-package.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-packageDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-package.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-packageBenefit.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-packageBenefit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-packageBenefit.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-packageBenefit.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-packageBenefit/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-packageBenefit.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-packageBenefit.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-packageBenefit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-packageBenefit.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-packageBenefit.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-packageBenefit/{dashboard_packageBenefit}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-packageBenefit.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-packageBenefit.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-packageBenefit/{dashboard_packageBenefit}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-packageBenefit.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-packageBenefit.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-packageBenefit/{dashboard_packageBenefit}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-packageBenefit.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-packageBenefit.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-packageBenefit/{dashboard_packageBenefit}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-packageBenefit.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-packageBenefit.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-packageBenefitDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-packageBenefit.deleteSelected',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-message.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-message',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-message.index',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@index',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@index',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-message.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-message/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-message.create',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@create',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@create',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-message.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-message',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-message.store',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@store',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@store',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-message.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-message/{dashboard_message}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-message.show',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@show',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@show',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-message.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/dashboard-message/{dashboard_message}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-message.edit',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@edit',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@edit',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-message.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'admin/dashboard-message/{dashboard_message}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-message.update',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@update',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@update',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-message.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'admin/dashboard-message/{dashboard_message}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'as' => 'dashboard-message.destroy',
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@destroy',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'dashboard-message.deleteSelected' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'admin/dashboard-messageDeleteSelected',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+        ),
+        'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@deleteSelected',
+        'controller' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@deleteSelected',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard-message.deleteSelected',
       ),
       'fallback' => false,
       'defaults' => 

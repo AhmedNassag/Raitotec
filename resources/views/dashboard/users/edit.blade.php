@@ -29,42 +29,6 @@
 
 
 @section('content')
-            <!-- validationNotify -->
-            @if ($errors->any())
-                <div class="alert alert-danger">
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
-
-            <!-- successNotify -->
-            @if (session()->has('success'))
-                <script id="successNotify" style="display: none;">
-                    window.onload = function() {
-                        notif({
-                            msg: "تمت العملية بنجاح",
-                            type: "success"
-                        })
-                    }
-                </script>
-            @endif
-
-            <!-- errorNotify -->
-            @if (session()->has('error'))
-                <script id="errorNotify" style="display: none;">
-                    window.onload = function() {
-                        notif({
-                            msg: "لقد حدث خطأ.. برجاء المحاولة مرة أخرى!",
-                            type: "error"
-                        })
-                    }
-                </script>
-            @endif
-
-
             <!-- row -->
             <div class="row">
                 <div class="col-lg-12 col-md-12">

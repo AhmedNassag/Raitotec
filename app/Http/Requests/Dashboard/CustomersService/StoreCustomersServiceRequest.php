@@ -24,7 +24,7 @@ class StoreCustomersServiceRequest extends FormRequest
     public function rules()
     {
         return [
-            'whatsapp' => 'required|numeric|unique:customersservices,whatsapp|regex:/(01)[0-9]{9}/',
+            'whatsapp' => 'required|numeric|unique:customersservices,whatsapp',
             'phone'    => 'required|numeric|unique:customersservices,phone',
         ];
     }
