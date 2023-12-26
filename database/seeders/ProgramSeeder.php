@@ -81,19 +81,5 @@ class ProgramSeeder extends Seeder
             'second_content_en' => 'We offer a point-of-sale program (POS) that enhances business activities and contributes to increasing profits. This program is considered an integrated sales system that provides comprehensive solutions to facilitate the sales process and all aspects related to it.',
             'photo' => 'program_5.webp',
         ]);
-
-
-
-        Program::create([
-            'first_title_ar' => 'برامج أخرى',
-            'first_title_en' => 'Other programs',
-            'first_content_ar' => 'في رايتو نقدم الكثير من البرامج الأخرى، مثل برامج إدارة الأصول الذي يستخدم في تنظيم تلك الأصول وإدارتها، بالإضافة إلى برامج لإدارة المدارس وبرامج لإدارة العقارات، كما تتوفر أنظمة لإدارة المحاماة وغيرها.',
-            'first_content_en' => 'At Rayto, we offer many other programs, such as asset management programs that are used to organize and manage those assets, in addition to school management programs and real estate management programs. Lawyer management systems and others are also available.',
-            'second_title_ar' => 'برامج أخرى',
-            'second_title_en' => 'Other programs',
-            'second_content_ar' => 'في رايتو نقدم الكثير من البرامج الأخرى، مثل برامج إدارة الأصول الذي يستخدم في تنظيم تلك الأصول وإدارتها، بالإضافة إلى برامج لإدارة المدارس وبرامج لإدارة العقارات، كما تتوفر أنظمة لإدارة المحاماة وغيرها.',
-            'second_content_en' => 'At Rayto, we offer many other programs, such as asset management programs that are used to organize and manage those assets, in addition to school management programs and real estate management programs. Lawyer management systems and others are also available.',
-            'photo' => 'program_6.png',
-        ]);
     }
 }
