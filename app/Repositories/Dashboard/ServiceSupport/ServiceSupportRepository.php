@@ -26,6 +26,9 @@ class ServiceSupportRepository implements ServiceSupportInterface
         ->when($request->content != null,function ($q) use($request){
             return $q->where('content_en','like','%'.$request->content.'%');
         })
+        ->when($request->service_id != null,function ($q) use($request){
+            return $q->where('service_id','like','%'.$request->service_id.'%');
+        })
         ->when($request->from_date != null,function ($q) use($request){
             return $q->whereDate('created_at','>=',$request->from_date);
         })

@@ -34,9 +34,23 @@ class BlogController extends Controller
 
 
 
+    public function create()
+    {
+        return $this->blog->create();
+    }
+
+
+
     public function store(StoreBlogRequest $request)
     {
         return $this->blog->store($request);
+    }
+
+
+
+    public function edit($id)
+    {
+        return $this->blog->edit($id);
     }
 
 

@@ -9,7 +9,7 @@
             </div>
 
             <div class="modal-body">
-                <form action="{{ route('dashboard-blog.update', 'test') }}" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
+                <form action="{{ route('dashboard-serviceStep.update', 'test') }}" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
                     {{ method_field('patch') }}
                     @csrf
                     <!--content_ar-->

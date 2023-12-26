@@ -41,7 +41,7 @@ class UpdateAboutUsRequest extends FormRequest
         return [
             'content_ar.required'  => 'المحتوى بالعربية مطلوب',
             'content_en.required'  => 'المحتوى بالإنجليزية مطلوب',
-            'content_en.required'  => 'رابط الفيديو مطلوب',
+            'video.required'  => 'رابط الفيديو مطلوب',
         ];
     }
 }

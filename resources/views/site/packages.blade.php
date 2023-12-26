@@ -27,7 +27,7 @@
 @section('content')
     <section class="component-hadeer">
         <div class="container">
-            <h2 class="page-title"> الاسعار</h2>
+            <h2 class="page-title">{{ trans('site.Prices') }}</h2>
         </div>
     </section>
 
@@ -40,18 +40,18 @@
                     <div class="price_box_inner p-md-4 p-2">
                         <div class="nk-pricing-head pb-2">
                             <h3 class="price-component">
-                                <span class="span-price">{{ $package->price }}</span>
-                                ريال
-                                <span>/شهريا</span>
+                                <span class="span-price">{{ @$package->price }}</span>
+                                {{ trans('site.Riyal' )}}
+                                <span>/{{ trans('site.Monthly') }}</span>
                             </h3>
-                            <h5 class="pt-3">{{ $package->name }}</h5>
-                            <p class="pt-3">إستفد من خصم {{ $package->discount }}% على الباقة السنويه</p>
+                            <h5 class="pt-3">{{ @$package->name }}</h5>
+                            <p class="pt-3">{{ trans('site.Benefit from a discount') }} {{ $package->discount }}% {{ trans('site.On the annual package') }}</p>
                         </div>
                         <div class="nk-pricing-body">
                             @foreach ($package->packageBenefits as $benefit )
-                                <p><i class="fa-regular fa-circle-check"></i><span class="px-2">{{ $benefit->name }}</span></p>
+                                <p><i class="fa-regular fa-circle-check"></i><span class="px-2">{{ @$benefit->name }}</span></p>
                             @endforeach
-                            <a href="{{ route('contact.index') }}" class="btn btn-price">تواصل معنا</a>
+                            <a href="{{ route('contact.index') }}" class="btn btn-price">{{ trans('site.Contact Us') }}</a>
                         </div>
                     </div>
                 </div>

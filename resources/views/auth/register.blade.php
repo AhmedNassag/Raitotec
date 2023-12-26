@@ -9,7 +9,7 @@
     <meta name="author" content="hadeer hussein">
     <meta property="og:title" content="حلول برمجية مبتكرة وأنظمة برمجية متخصصة - شركة رايتو">
     <meta property="og:type" content="Website">
-    <meta property="og:url" content="https://website.raitotec.com">
+    <meta property="og:url" content="https://raitotec.com">
     <meta property="og:image" content="{{ asset('public/assets_site/img/LOGO.png') }}">
     <link href="{{ asset('public/assets_site//img/LOGO.png') }}"  rel="shortcut icon"/>
     <title> أنظمة رايتو المحاسبية - Raito ERP systems</title>

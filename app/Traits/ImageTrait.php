@@ -2,14 +2,12 @@
 
 namespace App\Traits;
 
-use Intervention\Image\Facades\Image;
-
 Trait ImageTrait
 {
     function uploadImage($photo, $folder)
     {
         $file_extension = $photo->getClientOriginalExtension();
-        $photo_name     = time() . '.'.$file_extension;
+        $photo_name     = time() . rand(1,1000) . '.'.$file_extension;
         $path           = 'public/'.$folder;
         $photo->move($path, $photo_name);
 

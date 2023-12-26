@@ -15,7 +15,13 @@
         {{ trans('main.Blogs') }}
     @stop
     {{-- CKEditor CDN --}}
-    <script src="https://cdn.ckeditor.com/ckeditor5/23.0.0/classic/ckeditor.js"></script>
+    {{-- <script src="{{asset('public/assets_admin/ckeditor/ckeditor.js')}}"></script> --}}
+    {{-- <script src="https://cdn.ckeditor.com/ckeditor5/23.0.0/classic/ckeditor.js"></script> --}}
+    
+    
+    {{-- TinyMCE CDN --}}
+    {{-- <script src="https://cdn.tiny.cloud/1/v4yq4i6en4zh8vs20h02irgqymp1wdjuylc415ab0851wqh2/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script> --}}
+
 @endsection
 
 
@@ -32,9 +38,12 @@
                 </ul>
             </div>
             <div class="col-auto">
-                <button type="button" class="btn add-button me-2" data-bs-toggle="modal" data-bs-target="#addModal">
+                <a href="{{ route('dashboard-blog.create') }}" role="button" class="btn add-button me-2" title="{{ trans('main.Add') }}">
                     <i class="fas fa-plus"></i>
-                </button>
+                </a>
+                {{-- <button type="button" class="btn add-button me-2" data-bs-toggle="modal" data-bs-target="#addModal">
+                    <i class="fas fa-plus"></i>
+                </button> --}}
                 <button type="button" class="btn filter-btn me-2" id="filter_search">
                     <i class="fas fa-filter"></i>
                 </button>
@@ -116,24 +125,25 @@
                                     @foreach ($data as $key=>$item)
                                     <tr>
                                         <td class="text-center notPrint">
-                                            <input id="delete_selected_input" type="checkbox" value="{{ $item->id }}" class="box1 mr-1" oninput="showBtnDeleteSelected()">
+                                            <input id="delete_selected_input" type="checkbox" value="{{ @$item->id }}" class="box1 mr-1" oninput="showBtnDeleteSelected()">
                                             {{ $key+1 }}
                                         </td>
-                                        <td class="text-center">{{ $item->first_title }}</td>
-                                        <td class="text-center">{{ $item->second_title }}</td>
+                                        <td class="text-center">{{ @$item->first_title }}</td>
+                                        <td class="text-center">{{ @$item->second_title }}</td>
                                         <td class="text-center notPrint">
                                             @if($item->photo)
-                                                <img loading="lazy" class="mb-1" src="{{ asset('public/attachments/blog/'.$item->photo) }}" alt="{{ $item->photo }}" height="50" width="70">
+                                                <img loading="lazy" class="mb-1" src="{{ asset('public/attachments/blog/'.@$item->photo) }}" alt="{{ @$item->photo }}" height="50" width="70">
                                                 <br>
-                                                <a class="btn btn-outline-success btn-sm" href="{{ url('show_file') }}/blog/{{ $item->photo }}" role="button"><i class="fas fa-eye"></i></a>
-                                                <a class="btn btn-outline-info btn-sm" href="{{ url('download_file') }}/blog/{{ $item->photo }}" role="button"><i class="fas fa-download"></i></a>
+                                                <a class="btn btn-outline-success btn-sm" href="{{ url('show_file') }}/blog/{{ @$item->photo }}" role="button"><i class="fas fa-eye"></i></a>
+                                                <a class="btn btn-outline-info btn-sm" href="{{ url('download_file') }}/blog/{{ @$item->photo }}" role="button"><i class="fas fa-download"></i></a>
                                             @endif
                                         </td>
-                                        <td class="text-center">{{ $item->user->name }}</td>
+                                        <td class="text-center">{{ @$item->user->name }}</td>
                                         <td class="text-center">
-                                            <button type="button" class="btn btn-sm btn-secondary mr-1" data-bs-toggle="modal" data-bs-target="#editModal{{ $item->id }}" title="{{ trans('main.Edit') }}"><i class="far fa-edit"></i></button>
-                                            <button type="button" class="btn btn-sm btn-danger mr-1" data-bs-toggle="modal" data-bs-target="#deleteModal{{ $item->id }}" title="{{ trans('main.Delete') }}"><i class="far fa-trash-alt"></i></button>
-                                            <a href="{{ route('dashboard-blog.show', $item->id) }}" role="button"class="btn btn-sm btn-info" title="{{ trans('main.Show') }}"><i class="far fa-eye"></i></a>
+                                            <a href="{{ route('dashboard-blog.edit', $item->id) }}" role="button" class="btn btn-sm btn-secondary mr-1" title="{{ trans('main.Edit') }}"><i class="far fa-edit"></i></a>
+                                            {{-- <button type="button" class="btn btn-sm btn-secondary mr-1" data-bs-toggle="modal" data-bs-target="#editModal{{ @$item->id }}" title="{{ trans('main.Edit') }}"><i class="far fa-edit"></i></button> --}}
+                                            <button type="button" class="btn btn-sm btn-danger mr-1" data-bs-toggle="modal" data-bs-target="#deleteModal{{ @$item->id }}" title="{{ trans('main.Delete') }}"><i class="far fa-trash-alt"></i></button>
+                                            <a href="{{ route('dashboard-blog.show', $item->id) }}" role="button" class="btn btn-sm btn-info" title="{{ trans('main.Show') }}"><i class="far fa-eye"></i></a>
                                         </td>
                                     </tr>
                                     @include('dashboard.blog.editModal')
@@ -170,7 +180,61 @@
 
 
 @section('js')
-<script>
+    {{-- <script>
+        tinymce.init({
+        selector: '#store_first_content_ar',  // Change this selector to your textarea ID
+        plugins: 'advlist autolink lists link image charmap print preview anchor',
+        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | image link',
+        height: 500
+        });
+        tinymce.init({
+        selector: '#store_first_content_en',  // Change this selector to your textarea ID
+        plugins: 'advlist autolink lists link image charmap print preview anchor',
+        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | image link',
+        height: 500
+        });
+        tinymce.init({
+        selector: '#store_second_content_ar',  // Change this selector to your textarea ID
+        plugins: 'advlist autolink lists link image charmap print preview anchor',
+        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | image link',
+        height: 500
+        });
+        tinymce.init({
+        selector: '#store_second_content_en',  // Change this selector to your textarea ID
+        plugins: 'advlist autolink lists link image charmap print preview anchor',
+        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | image link',
+        height: 500
+        });
+
+        
+        tinymce.init({
+        selector: '#update_first_content_ar',  // Change this selector to your textarea ID
+        plugins: 'advlist autolink lists link image charmap print preview anchor',
+        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | image link',
+        height: 500
+        });
+        tinymce.init({
+        selector: '#update_first_content_en',  // Change this selector to your textarea ID
+        plugins: 'advlist autolink lists link image charmap print preview anchor',
+        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | image link',
+        height: 500
+        });
+        tinymce.init({
+        selector: '#update_second_content_ar',  // Change this selector to your textarea ID
+        plugins: 'advlist autolink lists link image charmap print preview anchor',
+        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | image link',
+        height: 500
+        });
+        tinymce.init({
+        selector: '#update_second_content_en',  // Change this selector to your textarea ID
+        plugins: 'advlist autolink lists link image charmap print preview anchor',
+        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | image link',
+        height: 500
+        });
+    </script> --}}
+
+
+{{-- <script>
     ClassicEditor.create( document.querySelector('#store_first_content_ar' ) )
     .catch( error => {
         console.error( error );
@@ -205,7 +269,7 @@
         console.error( error );
     } );
 </script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> --}}
 @endsection

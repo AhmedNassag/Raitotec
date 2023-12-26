@@ -19,7 +19,7 @@
 
 
 @section('meta-keywords')
-    <meta name="keywords" content="مع رايتو أحصل على حلول برمجية وأنظمة برمجية مبتكرة ">
+    <meta name="keywords" content="خدمات شركة برمجة | رايتو للأنظمة البرمجية">
 @endsection
 
 
@@ -29,7 +29,11 @@
 <section class="component-hadeer">
     <div class="container">
         <h1 class="page-title">
-            {{ trans('site.Programming Company Services | Raito Software Systems') }}
+            @if (App::getLocale() == 'ar')
+            أهم خدماتنا
+            @else
+            Our Services
+            @endif
         </h1>
     </div>
 </section>
@@ -38,9 +42,19 @@
     <div class="container">
         <div class="row row-cols-md-2 row-cols-1 mx-0 g-3">
             <div class="col pt-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
-                <h2 class="title-title"> نبذة عن خدماتنا </h2>
+                <h2 class="title-title">
+                    @if (App::getLocale() == 'ar')
+                    نبذة عن خدماتنا
+                    @else
+                    Overview of Our Services
+                    @endif
+                </h2>
                 <p class="pt-3 p-decerption">
+                    @if (App::getLocale() == 'ar')
                     شركتنا هي شركة حلول برمجية رائدة تقدم مجموعة واسعة من الخدمات لعملائنا، نحن ملتزمون بتلبية احتياجات العملاء وتقديم حلول تقنية مبتكرة وفعالة لمساعدتهم على تحقيق أهدافهم التجارية، ونعمل على ذلك من خلال تقديم مجموعة من البرامج المحاسبية بالإضافة إلى خدمات تأهيل المحطات وتصميم المواقع الإلكترونية وتطبيقات الجوال وغيرها من الخدمات.
+                    @else
+                    Our company is a leading software solutions provider that offers a wide range of services to our clients. We are committed to meeting customer needs and providing innovative and efficient technological solutions to help them achieve their business goals. We do this by offering a range of accounting software solutions, as well as station optimization services, website design, mobile applications, and more.
+                    @endif
                 </p>
             </div>
             <div class="col component-video aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
@@ -64,7 +78,13 @@
     <div class="container">
         <div class="row mx-0 justify-content-center">
             <div class="col-md-8 text-center">
-                <h2 class="title-title"> خدماتنا </h2>
+                <h2 class="title-title">
+                    @if (App::getLocale() == 'ar')
+                    أهم خدماتنا
+                    @else
+                    Services
+                    @endif
+                </h2>
             </div>
         </div>
         <div class="content-services-beg content-services row mx-0 row-cols-lg-3 row-cols-md-2 row-cols-1 g-4 pt-5 justify-content-center">
@@ -76,7 +96,7 @@
                         <h3 class="card-title">{{ $service->first_title }}</h3>
                         <p class="card-text">{{ $service->first_content }}</p>
                         <div>
-                            <a href="#" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
+                            <a href="{{ route('service.show',$service->id) }}" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
                         </div>
                     </div>
                 </div>
@@ -94,9 +114,19 @@
     <div class="container">
         <div class="row mx-0 justify-content-center">
             <div class="col-md-8 text-center">
-                <h2 class="title-title"> لماذا تعتمد على رايتو للبرمجة والأنظمة المحاسبية - ERP </h2>
+                <h2 class="title-title">
+                    @if (App::getLocale() == 'ar')
+                    لماذا تعتمد على رايتو للبرمجة والأنظمة المحاسبية - ERP 
+                    @else
+                    Why Choose Raito for Programming and ERP Systems?
+                    @endif
+                </h2>
                 <p class="pt-3 p-decerption">
-                    تعتبر شركتنا رائدة في مجال إنشاء الأنظمة المحاسبية ERP، و الإدارة السحابية التي قدمـت بالفعـل حلولا تقنية متميزة وليس لدينا أي قيود تعـوق التطويــر المستمـــر والمتنـامـي ، مستشــرفيــن عهــدا جديـدا من التطــور التقنـي و نجـاح الاعمـال، واهم ما يميزنا ما يلي:
+                    @if (App::getLocale() == 'ar')
+                    تعتبر شركتنا رائدة في مجال إنشاء الأنظمة المحاسبية ERP، والإدارة السحابية التي قدمـت بالفعـل حلولا تقنية متميزة وليس لدينا أي قيود تعـوق التطويــر المستمـــر والمتنـامـي ، مستشــرفيــن عهــدا جديـدا من التطــور التقنـي و نجـاح الاعمـال، واهم ما يميزنا ما يلي:
+                    @else
+                    We are a leading company in the field of ERP accounting systems and cloud management. We have already provided exceptional technical solutions, and we have no limitations that hinder continuous development and growth.
+                    @endif
                 </p>
             </div>
         </div>

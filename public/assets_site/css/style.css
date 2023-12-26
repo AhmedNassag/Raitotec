@@ -52,6 +52,11 @@ a:hover,a{
 ul li{
      list-style: none;
 }
+p{
+    color: var(--color-primary);
+ 
+    font-weight: 400;
+}
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1200px;
@@ -133,7 +138,7 @@ max-height: 78px;
      margin: 0px 7px;
 }
 .navber-index .navbar-nav .nav-link{
-     font-size: 17px;
+     font-size: 15px;
      color: #fff;
      font-weight: bold;
      text-transform: capitalize;
@@ -204,7 +209,7 @@ color: var(--color-default);
      object-fit: cover;
      object-position: 50% 50%;
      background-repeat: no-repeat;
-      background-color: #000000a1;;
+      background-color: #000000a1;
  }
  @media (min-width:1000px) {
      .corousel-index .carousel-caption {
@@ -216,6 +221,9 @@ color: var(--color-default);
     .corousel-index .carousel-caption {
          z-index: 2;
          bottom: 10%;
+     }
+     .img-slider img{
+        object-fit: cover;
      }
 }
 .corousel-index .carousel-caption {
@@ -279,7 +287,11 @@ color: var(--color-hover);
      line-height: 30px;
      font-weight: 400;
      color: var(--color-primary);
+   
  }
+ .component-about  .p-decerption{
+    text-align: justify;
+ } 
  .video-date {
      display: flex;
      justify-content: center;
@@ -356,6 +368,11 @@ color: var(--color-hover);
      line-height: 23px;
      font-weight: 400;
  }
+ .content-services .card-body{
+    display: grid;
+    grid-template-rows: 0.25fr 1fr;
+    align-items: start;
+ }
  .content-blog .card p{
     line-height: 1.25em !important;
     height: calc(4* 1.25em);
@@ -376,9 +393,20 @@ line-height: 18px;
 .img-fluid{
      border-top-right-radius: 8px;
      border-top-left-radius: 8px;
-     height: 245px;
+  
 }
-
+.component-content .p-decerption{
+   text-align: justify;
+}
+.component-hadeer p{
+    text-align: center;
+}
+@media (min-width:990px) {
+    .img-fluid{
+        
+        height: 245px;
+   }   
+}
  /*end-services*/
  .component-adver{
    
@@ -445,6 +473,10 @@ line-height: 18px;
      position: relative;
      color: var(--color-hover);
  }
+ .row-custemer p{
+    color: var(--color-hover);
+    font-size: 1.15rem;
+ }
  .component-team-new img{
      width: 128px !important;
      height: 128px;
@@ -456,14 +488,27 @@ line-height: 18px;
  }
  .sales-img{
     width: 100%;
-    height: 475px;
+    height: auto;
+   
+ }
+ @media (min-width:1100px) {
+    .sales-img{
+      
+           
+            min-height: 388px;
+         
+    }
  }
  /*bolg*/
 .content-blog .card{
 border: 0px;
 }
-.content-blog .card img{
-    height: 200px;
+
+@media (min-width: 990px)
+{
+    .content-blog .card img{
+        height: 200px;
+    }
 }
  /*bolg*/
  .content-project {
@@ -652,11 +697,7 @@ display: none;
 
 }
 @media (min-width:900px) {
-    .content-services .card-body p{
-        line-height: 1.35em !important;
-        height: calc(5* 1.35em);
-        overflow: hidden;
-    }
+    
 .services-other .card-body p{
     line-height: 1.45em !important;
     height: calc(3* 1.45em);
@@ -687,9 +728,10 @@ display: none;
 }
 .page-title {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .component-contents .contact-content a i{
@@ -771,11 +813,14 @@ display: none;
 }
 .card-blog .blog-img {
     width: 100%;
-    height: 400px;
+    height: 200px;
     object-fit: cover;
     transform: scale(1);
 }
-
+.card-definti-blog .blog-img {
+    width: 100%;
+    height: 400px;
+}
 .date-time {
     position: absolute;
     top: 40px;
@@ -1100,9 +1145,9 @@ color: var(--color-hover);
 }
 .img-or{
     width: 100%;
-    height: 300px;
+    height: auto;
     object-fit: contain;
-    max-height: 400px;
+    max-height: 300px;
 }
 .component-or{
     box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.05);
@@ -1114,7 +1159,7 @@ color: var(--color-hover);
 }
 .img-system{
     height: auto;
-    max-height: 400px;
+   
 }
 .img-accountiong{
     width: 70px;
@@ -1144,7 +1189,7 @@ color: var(--color-hover);
     {
         font-size: 1.45em;
     }
-    .content-services .card p, .content-blog .card p{
+   .content-blog .card p{
         line-height: 1.45em !important;
         height: calc(5* 1.45em);
     
@@ -1199,4 +1244,35 @@ line-height: 40px;
     }  
    
  
+}
+[dir="ltr"] .component-or .text-end{
+    text-align: left !important;
+}
+@media (max-width:550px) {
+    .title-title {
+font-size: 25px;
+text-align: center;
+
+    }
+    .about-item-best {
+text-align: center;
+    }
+    [dir="rtl"] .component-vision  .title-title {
+text-align: right;
+
+    }
+    [dir="ltr"] .component-vision  .title-title {
+        text-align: left;
+        
+            }
+    .row>* {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .col-button-con,  .component-adver .text-start{
+        text-align: center !important;
+    }
+   .price_box_inner{
+    margin-bottom: 5px;
+   }
 }

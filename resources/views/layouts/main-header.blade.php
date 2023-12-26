@@ -6,11 +6,19 @@
 	
 		<!-- Logo -->
 		<div class="header-left">
-			<a href="index" class="logo">
-				<img src="{{ asset('public/assets_admin/img/logo.png') }}" alt="Logo">
+			<a href="{{ route('dashboard.index') }}" class="logo">
+				@if (app()->getLocale() == 'ar')
+                <img src="{{ asset('public/assets_site/img/logoar.webp') }}" alt="logo" loading="lazy">
+				@else
+					<img src="{{ asset('public/assets_site/img/LOGO.png') }}" alt="logo" loading="lazy">
+				@endif
 			</a>
-			<a href="index" class="logo logo-small">
-				<img src="{{ asset('public/assets_admin/img/logo-small.png') }}" alt="Logo" width="30" height="30">
+			<a href="{{ route('dashboard.index') }}" class="logo logo-small">
+				@if (app()->getLocale() == 'ar')
+                <img src="{{ asset('public/assets_site/img/logoar.webp') }}" alt="logo" loading="lazy" alt="Logo" width="30" height="30">
+				@else
+					<img src="{{ asset('public/assets_site/img/LOGO.png') }}" alt="logo" loading="lazy" alt="Logo" width="30" height="30">
+				@endif
 			</a>
 			<!-- Sidebar Toggle -->
 			<a href="javascript:void(0);" id="toggle_btn">
@@ -38,8 +46,36 @@
 		<!-- Header Menu -->
 		<ul class="nav user-menu">
 
+			<!--Start Languages -->
+			<li class="nav-item dropdown has-arrow main-drop">
+				<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+					@if ( app()->getLocale() == 'ar')
+					<img src="{{ asset('public/assets_site/img/arabic.png') }}" alt="Arabic">
+					<span class="status online">{{ trans('main.Arabic') }}</span>
+					@else
+					<img src="{{ asset('public/assets_site/img/english.png') }}" alt="English">
+					<span class="status online">{{ trans('main.English') }}</span>
+					@endif
+				</a>
+				<div class="dropdown-menu">
+					@if ( app()->getLocale() == 'en')
+					<a class="dropdown-item" href="{{route('lang.ar') }}">
+						<img src="{{ asset('public/assets_site/img/arabic.png') }}" alt="">
+						{{ trans('main.Arabic') }}
+					</a>
+					@else
+					<a class="dropdown-item" href="{{route('lang.en') }}">
+						<img src="{{ asset('public/assets_site/img/english.png') }}" alt="">
+						{{ trans('main.English') }}
+					</a>
+					@endif
+				</div>	
+			</li>
+			<!-- End Languages -->
+
+
 			<!-- Start Notifications -->
-			{{-- @can('الإشعارات') --}}
+			@can('الإشعارات')
 				<li class="nav-item dropdown">
 					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
 						<i class="feather-bell"></i>
@@ -80,7 +116,7 @@
 						</div>
 					</div>
 				</li>
-			{{-- @endcan --}}
+			@endcan
 			<!-- End Notifications -->
 			
 			<!-- User Menu -->

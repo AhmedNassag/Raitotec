@@ -14,56 +14,56 @@
                     <!--first_title_ar-->
                     <div class="form-group">
                         <label>{{ trans('main.First Title') }} {{ trans('main.In Arabic') }}</label>
-                        <input type="text" class="form-control" name="first_title_ar" value="{{ old('first_title_ar') }}" placeholder="{{ trans('main.First Title') }} {{ trans('main.In Arabic') }}" required>
+                        <input type="text" class="form-control" name="first_title_ar" value="{{ old('first_title_ar') }}" placeholder="{{ trans('main.First Title') }} {{ trans('main.In Arabic') }}">
                         <div class="valid-feedback">{{ trans('main.Looks Good') }}</div>
                         <div class="invalid-feedback">{{ trans('main.Error Here')}}</div>
                     </div>
                     <!--first_content_ar-->
                     <div class="form-group">
                         <label>{{ trans('main.First Content') }} {{ trans('main.In Arabic') }}</label>
-                        <textarea class="form-control" id="store_first_content_ar" placeholder="{{trans('main.First Content') }} {{ trans('main.In Arabic') }}" rows="5" name="first_content_ar"></textarea>
+                        <textarea class="ckeditor form-control" id="store_first_content_ar" placeholder="{{trans('main.First Content') }} {{ trans('main.In Arabic') }}" rows="5" name="first_content_ar"></textarea>
                         <div class="valid-feedback">{{ trans('main.Looks Good') }}</div>
                         <div class="invalid-feedback">{{ trans('main.Error Here')}}</div>
                     </div>
                     <!--first_title_en-->
                     <div class="form-group">
                         <label>{{ trans('main.First Title') }} {{ trans('main.In English') }}</label>
-                        <input type="text" class="form-control" name="first_title_en" value="{{ old('first_title_en') }}" placeholder="{{ trans('main.First Title') }} {{ trans('main.In English') }}" required>
+                        <input type="text" class="form-control" name="first_title_en" value="{{ old('first_title_en') }}" placeholder="{{ trans('main.First Title') }} {{ trans('main.In English') }}">
                         <div class="valid-feedback">{{ trans('main.Looks Good') }}</div>
                         <div class="invalid-feedback">{{ trans('main.Error Here')}}</div>
                     </div>
                     <!--first_content_en-->
                     <div class="form-group">
                         <label>{{ trans('main.First Content') }} {{ trans('main.In English') }}</label>
-                        <textarea class="form-control" id="store_first_content_en" placeholder="{{trans('main.First Content') }} {{ trans('main.In English') }}" rows="5" name="first_content_en"></textarea>
+                        <textarea class="ckeditor form-control" id="store_first_content_en" placeholder="{{trans('main.First Content') }} {{ trans('main.In English') }}" rows="5" name="first_content_en"></textarea>
                         <div class="valid-feedback">{{ trans('main.Looks Good') }}</div>
                         <div class="invalid-feedback">{{ trans('main.Error Here')}}</div>
                     </div>
                     <!--second_title_ar-->
                     <div class="form-group">
                         <label>{{ trans('main.Second Title') }} {{ trans('main.In Arabic') }}</label>
-                        <input type="text" class="form-control" name="second_title_ar" value="{{ old('second_title_ar') }}" placeholder="{{ trans('main.First Title') }} {{ trans('main.In Arabic') }}" required>
+                        <input type="text" class="form-control" name="second_title_ar" value="{{ old('second_title_ar') }}" placeholder="{{ trans('main.First Title') }} {{ trans('main.In Arabic') }}">
                         <div class="valid-feedback">{{ trans('main.Looks Good') }}</div>
                         <div class="invalid-feedback">{{ trans('main.Error Here')}}</div>
                     </div>
                     <!--second_content_ar-->
                     <div class="form-group">
                         <label>{{ trans('main.Second Content') }} {{ trans('main.In Arabic') }}</label>
-                        <textarea class="form-control" id="store_second_content_ar" placeholder="{{trans('main.Second Content') }} {{ trans('main.In Arabic') }}" rows="5" name="second_content_ar"></textarea>
+                        <textarea class="ckeditor form-control" id="store_second_content_ar" placeholder="{{trans('main.Second Content') }} {{ trans('main.In Arabic') }}" rows="5" name="second_content_ar"></textarea>
                         <div class="valid-feedback">{{ trans('main.Looks Good') }}</div>
                         <div class="invalid-feedback">{{ trans('main.Error Here')}}</div>
                     </div>
                     <!--second_title_en-->
                     <div class="form-group">
                         <label>{{ trans('main.Second Title') }} {{ trans('main.In English') }}</label>
-                        <input type="text" class="form-control" name="second_title_en" value="{{ old('second_title_en') }}" placeholder="{{ trans('main.First Title') }} {{ trans('main.In English') }}" required>
+                        <input type="text" class="form-control" name="second_title_en" value="{{ old('second_title_en') }}" placeholder="{{ trans('main.First Title') }} {{ trans('main.In English') }}">
                         <div class="valid-feedback">{{ trans('main.Looks Good') }}</div>
                         <div class="invalid-feedback">{{ trans('main.Error Here')}}</div>
                     </div>
                     <!--second_content_en-->
                     <div class="form-group">
                         <label>{{ trans('main.Second Content') }} {{ trans('main.In English') }}</label>
-                        <textarea class="form-control" id="store_second_content_en" placeholder="{{trans('main.Second Content') }} {{ trans('main.In English') }}" rows="5" name="second_content_en"></textarea>
+                        <textarea class="ckeditor form-control" id="store_second_content_en" placeholder="{{trans('main.Second Content') }} {{ trans('main.In English') }}" rows="5" name="second_content_en"></textarea>
                         <div class="valid-feedback">{{ trans('main.Looks Good') }}</div>
                         <div class="invalid-feedback">{{ trans('main.Error Here')}}</div>
                     </div>

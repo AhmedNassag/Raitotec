@@ -28,7 +28,7 @@
                     <!--video-->
                     <div class="form-group">
                         <label>{{ trans('main.Video') }}</label>
-                        <input type="text" class="form-control" name="video" value="{{ old('video') }}" placeholder="{{ trans('main.Video') }}">
+                        <input type="file" class="form-control" name="video" value="{{ old('video') }}" placeholder="{{ trans('main.Video') }}">
                         <div class="valid-feedback">{{ trans('main.Looks Good') }}</div>
                         <div class="invalid-feedback">{{ trans('main.Error Here')}}</div>
                     </div>

@@ -44,10 +44,14 @@ class BlogRepository implements BlogInterface
     public function show($id)
     {
         $blog = Blog::findOrFail($id);
+        $htmlContent = $blog->second_content;
 
+        // Replace <figure> tags with <div> tags
+        $htmlContent = str_replace(['<figure ', '</figure>', '<figcaption>', '</figcaption>'], ['<div ', '</div>', '<span>', '</span>'], $htmlContent);
+        // dd($htmlContent);
         /*** start of knowledge table ***/
         $dom = new DOMDocument();
-        $dom->loadHTML(mb_convert_encoding($blog->second_content, 'HTML-ENTITIES', 'UTF-8'))    ;
+        $dom->loadHTML(mb_convert_encoding($htmlContent, 'HTML-ENTITIES', 'UTF-8'));
         $tds = $dom->getElementsByTagName('strong');
         $tableArray=array();
         foreach($tds as $key=>$td)

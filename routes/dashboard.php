@@ -38,9 +38,11 @@ use App\Http\Controllers\Dashboard\Message\MessageController;
 |
 */
 /****************************** START ADMIN ROUTES ******************************/
-Route::Group(['prefix' => 'admin', 'middleware' => 'auth'], function () { 
+Route::Group(['prefix' => 'admin', 'middleware' => ['auth','lang']], function () { 
 
-    Route::get('/dashboard', function () { return view('admin.index_admin'); })->name('dashboard.index');
+    Route::get('/editor', function () { return view('dashboard.editor'); })->name('dashboard.editor');
+
+    Route::get('/dashboard', function () { return view('dashboard'); })->name('dashboard.index');
 
     //roles
     Route::resource('role', RoleController::class);

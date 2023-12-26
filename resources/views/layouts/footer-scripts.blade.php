@@ -57,6 +57,7 @@
 <script src="{{URL::asset('public/assets_admin/plugins/fancyuploder/jquery.iframe-transport.js')}}"></script>
 <script src="{{URL::asset('public/assets_admin/plugins/fancyuploder/jquery.fancy-fileupload.js')}}"></script>
 <script src="{{URL::asset('public/assets_admin/plugins/fancyuploder/fancy-uploader.js')}}"></script>
+
 @yield('js')
 
 

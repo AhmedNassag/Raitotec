@@ -90,6 +90,7 @@ return [
     'Second Content' => 'المحتوى الثانى',
     'Added By' => 'الإضافة بواسطة',
     'Blog Definition' => 'تعريف المدونة',
+    'Meta Description' => 'كلمات تعريفية',
 
     //Business
     'Business' => 'نماذج أعمالنا',
@@ -163,4 +164,8 @@ return [
     'Messages' => 'الرسائل',
     'Message' => 'الرسالة',
     'Description' => 'الوصف',
+
+    'Raitotec Dashboard' => 'لوحة تحكم رايتو',
+    'Arabic' => 'العربية',
+    'English' => 'الإنجليزية',
 ];

@@ -5,7 +5,7 @@
 
             <div class="modal-header flex-wrap">
                 <div class="text-center w-100 mb-3">
-                    <img loading="lazy" src="../assets_admin/img/logo-small.png" alt="logo">
+                    <img loading="lazy" src="{{ asset('public/assets_admin/img/logo-small.png') }}" alt="logo">
                 </div>
                 <h4 class="modal-title">{{ trans('main.Add') }} {{ trans('main.User') }}</h4>
                 <button type="button" class="close" data-bs-dismiss="modal"><span>&times;</span></button>

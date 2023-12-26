@@ -19,7 +19,7 @@
 
 
 @section('meta-keywords')
-    <meta name="keywords" content="مع رايتو أحصل على حلول برمجية وأنظمة برمجية مبتكرة ">
+    <meta name="keywords" content="المدونة | نصائح وأفكار حول الحلول البرمجية">
 @endsection
 
 
@@ -37,10 +37,12 @@
     <section class="component-blog pt-5 pb-5">
         <div class="container">
             <div class="component-serch">
-                <h4 class="title-serch">{{ trans('site.Search') }}</h4>
+                <h4 class="title-serch">
+                    {{ trans('site.Search') }}
+                </h4>
                 <form action="{{ route('blog.index') }}" method="GET" role="search" class="mt-2">
                     <div class="input-group">
-                        <input type="search" class="form_control" placeholder="{{ trans('site.Search') }}" name="search" value="{{ $search }}">
+                        <input type="search" class="form_control" placeholder="{{ trans('site.Search') }}" name="search" value="{{ @$search }}">
                         <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
                     </div>
                 </form>
@@ -50,9 +52,9 @@
                 @foreach ($data as $key=>$item)
                     <div class="col col-serves aos-init aos-animate d-flex" data-aos="fade-up" data-aos-delay="20">
                         <div class="card card-blog">
-                            <a href="{{ route('blog.show',$item->id) }}">
+                            <a href="{{ route('blog.show',@$item->id) }}">
                                 <div class="img-blog-date">
-                                    <img class="blog-img" src="{{ asset('public/attachments/blog/'.$item->photo) }}" alt="{{ $item->first_title }}" loading="lazy">
+                                    <img class="blog-img" src="{{ asset('public/attachments/blog/'.@$item->photo) }}" alt="{{ @$item->first_title }}" loading="lazy">
                                     <div class="date-time">
                                         <div class="number-time">{{ @$item->created_at?->format('d') }}</div>
                                         <div>{{ @$item->created_at?->format('M') }}</div>
@@ -62,17 +64,17 @@
                                     <div class="date">
                                         <i class="far fa-calendar-alt mx-2"></i>{{ @$item->created_at?->format('Y-m-d') }}
                                     </div>
-                                    <h6 class="title-card">{{ $item->first_title }}</h6>
-                                    {{-- <p class="title-p">{!! $item->first_content !!}</p> --}}
-                                    @php
-                                        $normalizedText = Normalizer::normalize($item->first_content, Normalizer::FORM_C);
+                                    <h6 class="title-card">{{ @$item->first_title }}</h6>
+                                    <p class="title-p">{!! $item->first_content !!}</p>
+                                    {{-- @php
+                                        $normalizedText = Normalizer::normalize(@$item->first_content, Normalizer::FORM_C);
                                     @endphp
                                     <p class="title-p">
-                                        {{ $normalizedText }}
-                                    </p>
+                                        {{ @$normalizedText }}
+                                    </p> --}}
                                 </div>
                                 <div class="component-Know">
-                                    <a class="btn btn-primar px-3 link-more" href="{{ route('blog.show',$item->id) }}">
+                                    <a class="btn btn-primar px-3 link-more" href="{{ route('blog.show',@$item->id) }}">
                                         {{ trans('site.More') }}...    
                                     </a>
                                 </div>
@@ -82,7 +84,7 @@
                 @endforeach
                 @endif
             </div>
-            {{ $data->links() }}
+            {{ @$data->links() }}
         </div>
     </section>
 @endsection

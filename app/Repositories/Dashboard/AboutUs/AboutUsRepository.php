@@ -50,11 +50,11 @@ class AboutUsRepository implements AboutUsInterface
         try {
             $validated = $request->validated();
             $inputs    = $request->all();
-            //upload image
-            // if ($request->video) {
-            //     $video_name      = $this->uploadImage($request->video, 'attachments/aboutUs');
-            //     $inputs['video'] = $video_name;
-            // }
+            //upload video
+            if ($request->video) {
+                $video_name      = $this->uploadImage($request->video, 'attachments/aboutUs');
+                $inputs['video'] = $video_name;
+            }
             //insert data
             $aboutUs = AboutUs::create($inputs);
             if (!$aboutUs) {
@@ -82,14 +82,14 @@ class AboutUsRepository implements AboutUsInterface
                 return redirect()->back();
             }
             //upload image
-            // if ($request->video) {
-            //     //remove old video
-            //     Storage::disk('attachments')->delete('aboutUs/' . $aboutUs->video);
-            //     $video_name = $this->uploadImage($request->video, 'attachments/aboutUs');
-            //     $inputs['video'] = $video_name;
-            // } else {
-            //     $inputs['video'] = $aboutUs->video;
-            // }
+            if ($request->video) {
+                //remove old video
+                Storage::disk('attachments')->delete('aboutUs/' . $aboutUs->video);
+                $video_name = $this->uploadImage($request->video, 'attachments/aboutUs');
+                $inputs['video'] = $video_name;
+            } else {
+                $inputs['video'] = $aboutUs->video;
+            }
             $aboutUs->update($inputs);
             if (!$aboutUs) {
                 session()->flash('error');
@@ -114,7 +114,7 @@ class AboutUsRepository implements AboutUsInterface
                     session()->flash('error');
                     return redirect()->back();
                 }
-                // Storage::disk('attachments')->delete('aboutUs/' . $aboutUs->video);
+                Storage::disk('attachments')->delete('aboutUs/' . $aboutUs->video);
                 $aboutUs->delete();
                 session()->flash('success');
                 return redirect()->back();
@@ -138,7 +138,7 @@ class AboutUsRepository implements AboutUsInterface
             //     if($related_table->count() == 0) {
                     $aboutUs = AboutUs::whereIn('id', $delete_selected_id)->get();
                     foreach($aboutUs as $item) {
-                        // Storage::disk('attachments')->delete('aboutUs/' . $item->video);
+                        Storage::disk('attachments')->delete('aboutUs/' . $item->video);
                         $item->delete();
                     }
                     session()->flash('success');

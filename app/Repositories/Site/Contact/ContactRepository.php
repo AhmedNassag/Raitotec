@@ -10,9 +10,9 @@ class ContactRepository implements ContactInterface
 {
     public function index($request)
     {
-        $companyInformaion = CompanyInformation::first();
-        $services          = Service::get(['id','first_title_ar','first_title_en']);
-        return view('site.contact',compact('companyInformaion','services'));
+        $companyInformation = CompanyInformation::first();
+        $services           = Service::get(['id','first_title_ar','first_title_en']);
+        return view('site.contact',compact('companyInformation','services'));
     }
 
 

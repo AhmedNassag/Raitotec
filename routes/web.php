@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\SiteController;
 use App\Http\Controllers\Site\HomeController;
 use App\Http\Controllers\LangController;
 use App\Http\Controllers\GeneralController;
@@ -12,7 +13,6 @@ use App\Http\Controllers\Site\ProgramController;
 use App\Http\Controllers\Site\BusinessController;
 use App\Http\Controllers\Site\ContactController;
 use App\Http\Controllers\Site\PackageController;
-use App\Http\Controllers\Site\MessageController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -27,6 +27,9 @@ use Illuminate\Support\Facades\Auth;
 */
 
 /****************************** start site routes ******************************/
+Route::get('/sitemap.xml', [SiteController::class, 'sitemap']);
+Route::get('/robots.txt', [SiteController::class, 'robots']);
+
 Route::middleware('lang')->group( function () {
     Route::prefix('lang')->name('lang.')->group( function () {
         Route::controller(LangController::class)->group( function () {
@@ -59,9 +62,8 @@ Route::middleware('lang')->group( function () {
     //package
     route::resource('package', PackageController::class);
 
-    //message
-    route::resource('message', MessageController::class);
-
+    //
+    route::get('other-programs', function() { return view('site.programs-other'); })->name('program.other');
 
 });
 /****************************** end site routes ******************************/

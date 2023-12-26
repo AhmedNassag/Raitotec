@@ -3,7 +3,7 @@
 	<div class="sidebar-inner slimscroll">
 		<div id="sidebar-menu" class="sidebar-menu">
 			<ul>
-				<li class="menu-title"><span>Raitotec Dashboard</span></li>
+				<li class="menu-title"><span>{{ trans('main.Raitotec Dashboard') }}</span></li>
 				<!--home-->
 				<li class="{{ Request::is('admin/dashboard') ? 'active' : '' }}">
 					<a href="{{ route('dashboard.index') }}"><i data-feather="home"></i> <span>{{ trans('main.Dashboard') }}</span></a>

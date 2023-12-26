@@ -54,7 +54,7 @@
 
 
 <!---Internal Fileupload css-->
-<link href="{{asset('public/assets_admin/plugins/fileuploads/css/fileupload.css')}}" rel="stylesheet" type="text/css"/>
+<link href="{{asset('public/assets_admin/plugins/fileuploads/css/fileupload.css')}}" rel="stylesheet" type="text/css" />
 <!---Internal Fancy uploader css-->
 <link href="{{asset('public/assets_admin/plugins/fancyuploder/fancy_fileupload.css')}}" rel="stylesheet" />
 

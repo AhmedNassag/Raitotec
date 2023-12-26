@@ -88,12 +88,12 @@
 									</td>
 									<td class="text-center">{{ $item->content}}</td>
 									<td class="text-center notPrint">
-										<iframe width="420" height="345" src="{{ $item->video }}"></iframe>
-										{{-- @if($item->video)															
-											<video width="300" height="200" controls>
-												<source src="{{ asset('public/attachments/aboutUs/'.$item->video) }}" type="video/mp4">
-											</video>
-										@endif --}}
+										{{-- <iframe width="420" height="345" src="{{ $item->video }}"></iframe> --}}
+										@if($item->video)															
+										<video width="300" height="200" controls>
+											<source src="{{ asset('public/attachments/aboutUs/'.$item->video) }}" type="video/mp4">
+										</video>
+									@endif
 									</td>
 									<td class="text-center">
 										<button type="button" class="btn btn-sm btn-secondary mr-1" data-bs-toggle="modal" data-bs-target="#editModal{{ $item->id }}" title="{{ trans('main.Edit') }}"><i class="far fa-edit"></i></button>

@@ -29,8 +29,8 @@
                     <!--video-->
                     <div class="form-group">
                         <label>{{ trans('main.Video') }} :</label>
-                        <input class="form-control" type="text" name="video" data-height="120" value="{{ $item->video }}" />
-                        {{-- @if($item->video)
+                        <input class="form-control" type="file" name="video" data-height="120" value="{{ $item->video }}" />
+                        @if($item->video)
                         <div class="row">
                             <div class="col-12">
                                 <video loop="" id="myVideo" poster="{{ asset('public/attachments/aboutUs/'.$item->video) }}" style="object-fit:cover; max-width:200px; max-height:200px; !important">
@@ -38,7 +38,7 @@
                                 </video>
                             </div>
                         </div>
-                        @endif --}}
+                        @endif
                     </div>
                     <!-- id -->
                     <div class="form-group">

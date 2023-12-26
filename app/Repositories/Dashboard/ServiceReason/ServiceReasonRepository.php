@@ -5,7 +5,7 @@ namespace App\Repositories\Dashboard\ServiceReason;
 use App\Models\ServiceReason;
 use App\Models\Service;
 use App\Traits\ImageTrait;
-use Illuminate\Reason\Facades\Storage;
+use Illuminate\Support\Facades\Storage;
 
 class ServiceReasonRepository implements ServiceReasonInterface 
 {
@@ -25,6 +25,9 @@ class ServiceReasonRepository implements ServiceReasonInterface
         })
         ->when($request->content != null,function ($q) use($request){
             return $q->where('content_en','like','%'.$request->content.'%');
+        })
+        ->when($request->service_id != null,function ($q) use($request){
+            return $q->where('service_id','like','%'.$request->service_id.'%');
         })
         ->when($request->from_date != null,function ($q) use($request){
             return $q->whereDate('created_at','>=',$request->from_date);

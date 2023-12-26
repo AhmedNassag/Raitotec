@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 use Illuminate\Support\Facades\Validator;
-use DB;
+use Illuminate\Support\Facades\DB;
 
 class RoleController extends Controller
 {
@@ -56,8 +56,11 @@ class RoleController extends Controller
                 session()->flash('error');
                 return redirect()->back();
             }
+
             $role = Role::create(['name' => $request->input('name')]);
-            $role->syncPermissions($request->input('permission'));
+            $permissionNames = Permission::whereIn('id', $request->input('permission'))->pluck('name')->toArray();
+            $role->syncPermissions($permissionNames);
+
             session()->flash('success');
             return redirect()->route('role.index');
         } catch (\Exception $e) {
@@ -92,10 +95,13 @@ class RoleController extends Controller
             'name'       => 'required',
             'permission' => 'required',
         ]);
+
         $role = Role::find($id);
         $role->name = $request->input('name');
         $role->save();
-        $role->syncPermissions($request->input('permission'));
+        $permissionNames = Permission::whereIn('id', $request->input('permission'))->pluck('name')->toArray();
+        $role->syncPermissions($permissionNames);
+
         return redirect()->route('role.index')->with('success','Role updated successfully');
     }
     

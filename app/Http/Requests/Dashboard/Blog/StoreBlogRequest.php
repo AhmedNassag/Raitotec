@@ -26,12 +26,12 @@ class StoreBlogRequest extends FormRequest
         return [
             'first_title_ar'    => 'required',
             'first_content_ar'  => 'required',
-            'first_title_en'    => 'required',
-            'first_content_en'  => 'required',
+            // 'first_title_en'    => 'required',
+            // 'first_content_en'  => 'required',
             'second_title_ar'   => 'required',
             'second_content_ar' => 'required',
-            'second_title_en'   => 'required',
-            'second_content_en' => 'required',
+            // 'second_title_en'   => 'required',
+            // 'second_content_en' => 'required',
             'photo'             => 'required|file',
         ];
     }

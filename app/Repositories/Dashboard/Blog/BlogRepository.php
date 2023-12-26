@@ -51,6 +51,13 @@ class BlogRepository implements BlogInterface
 
 
 
+    public function create()
+    {
+        return view('dashboard.blog.create');
+    }
+
+
+
     public function store($request)
     {
         try {
@@ -74,6 +81,15 @@ class BlogRepository implements BlogInterface
         } catch (\Exception $e) {
             return redirect()->back()->withErrors(['error' => $e->getMessage()]);
         }
+    }
+
+
+
+    public function edit($id)
+    {
+        $blog = Blog::findOrFail($id);
+
+        return view('dashboard.blog.edit', compact('blog'));
     }
 
 

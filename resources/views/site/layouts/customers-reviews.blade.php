@@ -5,7 +5,7 @@
 
 <section class="mt-5 pb-5 pt-5 component-reviews">
     <div class="text-center">
-        <h2 class="title-title text-white"> اراء عملائنا </h2>
+        <h2 class="title-title text-white"> {{ trans('site.Customers Reviews') }} </h2>
     </div>
     <div class="slider-reviews pt-5">
         <div id="carouselExampleIndicators" class="carousel slide custemer-reviews">

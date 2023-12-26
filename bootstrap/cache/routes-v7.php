@@ -24,7 +24,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::ghsySh6RrrEa3JB3',
+            '_route' => 'generated::mZvOSgdZiQPp8igJ',
           ),
           1 => NULL,
           2 => 
@@ -44,7 +44,47 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::ssczcoNYByBpAS3J',
+            '_route' => 'generated::K0k6ZCjc48h8HQqs',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/sitemap.xml' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::xiFNNvtUsSdFH03f',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/robots.txt' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'generated::VM5yLqlYD3GEI1W3',
           ),
           1 => NULL,
           2 => 
@@ -530,49 +570,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/message' => 
+      '/other-programs' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'message.index',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'message.store',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'POST' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/message/create' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'message.create',
+            '_route' => 'program.other',
           ),
           1 => NULL,
           2 => 
@@ -609,7 +613,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::dnaYoF95x2lu0sys',
+            '_route' => 'generated::AzHF0HFXXfU3HuUR',
           ),
           1 => NULL,
           2 => 
@@ -664,7 +668,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::FSSOAZOrA6ROFR0O',
+            '_route' => 'generated::s6yCM68mMSF7PGMc',
           ),
           1 => NULL,
           2 => 
@@ -755,7 +759,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::kJ2k4Yqonrh0hO3r',
+            '_route' => 'generated::QiYY4QphdWEsesKK',
           ),
           1 => NULL,
           2 => 
@@ -795,6 +799,26 @@ app('router')->setCompiledRoutes(
           0 => 
           array (
             '_route' => 'markAllAsRead',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/admin/editor' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'dashboard.editor',
           ),
           1 => NULL,
           2 => 
@@ -2558,7 +2582,7 @@ app('router')->setCompiledRoutes(
     ),
     2 => 
     array (
-      0 => '{^(?|/b(?|usiness/([^/]++)(?|(*:31)|/edit(*:43)|(*:50))|log/([^/]++)(?|(*:73)|/edit(*:85)|(*:92)))|/a(?|boutUs/([^/]++)(?|(*:124)|/edit(*:137)|(*:145))|dmin/(?|role/([^/]++)(?|(*:178)|/edit(*:191)|(*:199))|user(?|/(?|edit/([^/]++)(*:232)|destroy/([^/]++)(*:256))|ShowNotification/([^/]++)(*:290)|ChangeStatus/([^/]++)(*:319))|dashboard\\-(?|s(?|lider/([^/]++)(?|(*:363)|/edit(*:376)|(*:384))|ervice(?|/([^/]++)(?|(*:414)|/edit(*:427)|(*:435))|S(?|upport/([^/]++)(?|(*:466)|/edit(*:479)|(*:487))|tep/([^/]++)(?|(*:511)|/edit(*:524)|(*:532)))|Reason/([^/]++)(?|(*:560)|/edit(*:573)|(*:581)))|ale/([^/]++)(?|(*:606)|/edit(*:619)|(*:627)))|aboutUs/([^/]++)(?|(*:656)|/edit(*:669)|(*:677))|why(?|Us/([^/]++)(?|(*:706)|/edit(*:719)|(*:727))|Program/([^/]++)(?|(*:755)|/edit(*:768)|(*:776)))|p(?|rogram(?|/([^/]++)(?|(*:811)|/edit(*:824)|(*:832))|Manage/([^/]++)(?|(*:859)|/edit(*:872)|(*:880))|Ability/([^/]++)(?|(*:908)|/edit(*:921)|(*:929))|Package/([^/]++)(?|(*:957)|/edit(*:970)|(*:978)))|ackage(?|/([^/]++)(?|(*:1009)|/edit(*:1023)|(*:1032))|Benefit/([^/]++)(?|(*:1061)|/edit(*:1075)|(*:1084))))|b(?|log/([^/]++)(?|(*:1115)|/edit(*:1129)|(*:1138))|usiness/([^/]++)(?|(*:1167)|/edit(*:1181)|(*:1190)))|importantCustomer/([^/]++)(?|(*:1230)|/edit(*:1244)|(*:1253))|c(?|ompanyInformation/([^/]++)(?|(*:1296)|/edit(*:1310)|(*:1319))|ustomersReview/([^/]++)(?|(*:1355)|/edit(*:1369)|(*:1378)))|message/([^/]++)(?|(*:1408)|/edit(*:1422)|(*:1431)))))|/s(?|ervice/([^/]++)(?|(*:1467)|/edit(*:1481)|(*:1490))|how_file/([^/]++)/([^/]++)(*:1526))|/p(?|rogram/([^/]++)(?|(*:1559)|/edit(*:1573)|(*:1582))|a(?|ckage/([^/]++)(?|(*:1613)|/edit(*:1627)|(*:1636))|ssword/reset/([^/]++)(*:1667)))|/contact/([^/]++)(?|(*:1698)|/edit(*:1712)|(*:1721))|/message/([^/]++)(?|(*:1751)|/edit(*:1765)|(*:1774))|/download_file/([^/]++)/([^/]++)(*:1816))/?$}sDu',
+      0 => '{^(?|/b(?|usiness/([^/]++)(?|(*:31)|/edit(*:43)|(*:50))|log/([^/]++)(?|(*:73)|/edit(*:85)|(*:92)))|/a(?|boutUs/([^/]++)(?|(*:124)|/edit(*:137)|(*:145))|dmin/(?|role/([^/]++)(?|(*:178)|/edit(*:191)|(*:199))|user(?|/(?|edit/([^/]++)(*:232)|destroy/([^/]++)(*:256))|ShowNotification/([^/]++)(*:290)|ChangeStatus/([^/]++)(*:319))|dashboard\\-(?|s(?|lider/([^/]++)(?|(*:363)|/edit(*:376)|(*:384))|ervice(?|/([^/]++)(?|(*:414)|/edit(*:427)|(*:435))|S(?|upport/([^/]++)(?|(*:466)|/edit(*:479)|(*:487))|tep/([^/]++)(?|(*:511)|/edit(*:524)|(*:532)))|Reason/([^/]++)(?|(*:560)|/edit(*:573)|(*:581)))|ale/([^/]++)(?|(*:606)|/edit(*:619)|(*:627)))|aboutUs/([^/]++)(?|(*:656)|/edit(*:669)|(*:677))|why(?|Us/([^/]++)(?|(*:706)|/edit(*:719)|(*:727))|Program/([^/]++)(?|(*:755)|/edit(*:768)|(*:776)))|p(?|rogram(?|/([^/]++)(?|(*:811)|/edit(*:824)|(*:832))|Manage/([^/]++)(?|(*:859)|/edit(*:872)|(*:880))|Ability/([^/]++)(?|(*:908)|/edit(*:921)|(*:929))|Package/([^/]++)(?|(*:957)|/edit(*:970)|(*:978)))|ackage(?|/([^/]++)(?|(*:1009)|/edit(*:1023)|(*:1032))|Benefit/([^/]++)(?|(*:1061)|/edit(*:1075)|(*:1084))))|b(?|log/([^/]++)(?|(*:1115)|/edit(*:1129)|(*:1138))|usiness/([^/]++)(?|(*:1167)|/edit(*:1181)|(*:1190)))|importantCustomer/([^/]++)(?|(*:1230)|/edit(*:1244)|(*:1253))|c(?|ompanyInformation/([^/]++)(?|(*:1296)|/edit(*:1310)|(*:1319))|ustomersReview/([^/]++)(?|(*:1355)|/edit(*:1369)|(*:1378)))|message/([^/]++)(?|(*:1408)|/edit(*:1422)|(*:1431)))))|/s(?|ervice/([^/]++)(?|(*:1467)|/edit(*:1481)|(*:1490))|how_file/([^/]++)/([^/]++)(*:1526))|/p(?|rogram/([^/]++)(?|(*:1559)|/edit(*:1573)|(*:1582))|a(?|ckage/([^/]++)(?|(*:1613)|/edit(*:1627)|(*:1636))|ssword/reset/([^/]++)(*:1667)))|/contact/([^/]++)(?|(*:1698)|/edit(*:1712)|(*:1721))|/download_file/([^/]++)/([^/]++)(*:1763))/?$}sDu',
     ),
     3 => 
     array (
@@ -5252,95 +5276,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      1751 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'message.show',
-          ),
-          1 => 
-          array (
-            0 => 'message',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      1765 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'message.edit',
-          ),
-          1 => 
-          array (
-            0 => 'message',
-          ),
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      1774 => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'message.update',
-          ),
-          1 => 
-          array (
-            0 => 'message',
-          ),
-          2 => 
-          array (
-            'PUT' => 0,
-            'PATCH' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'message.destroy',
-          ),
-          1 => 
-          array (
-            0 => 'message',
-          ),
-          2 => 
-          array (
-            'DELETE' => 0,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => true,
-          6 => NULL,
-        ),
-      ),
-      1816 => 
+      1763 => 
       array (
         0 => 
         array (
@@ -5379,7 +5315,7 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
-    'generated::ghsySh6RrrEa3JB3' => 
+    'generated::mZvOSgdZiQPp8igJ' => 
     array (
       'methods' => 
       array (
@@ -5400,7 +5336,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
         ),
-        'as' => 'generated::ghsySh6RrrEa3JB3',
+        'as' => 'generated::mZvOSgdZiQPp8igJ',
       ),
       'fallback' => false,
       'defaults' => 
@@ -5416,7 +5352,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::ssczcoNYByBpAS3J' => 
+    'generated::K0k6ZCjc48h8HQqs' => 
     array (
       'methods' => 
       array (
@@ -5433,13 +5369,87 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:297:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:79:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004f40000000000000000";}";s:4:"hash";s:44:"Kd1VGlE3/v1QYGuSFRN2NobrlNtFfsCNMbBq2weMuCM=";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004f20000000000000000";}";s:4:"hash";s:44:"fJMauG9k3TjV/wFPDSelPgwbfCvDeF24/prwDWhSfl4=";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::ssczcoNYByBpAS3J',
+        'as' => 'generated::K0k6ZCjc48h8HQqs',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::xiFNNvtUsSdFH03f' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'sitemap.xml',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\SiteController@sitemap',
+        'controller' => 'App\\Http\\Controllers\\SiteController@sitemap',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::xiFNNvtUsSdFH03f',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::VM5yLqlYD3GEI1W3' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'robots.txt',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\SiteController@robots',
+        'controller' => 'App\\Http\\Controllers\\SiteController@robots',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'generated::VM5yLqlYD3GEI1W3',
       ),
       'fallback' => false,
       'defaults' => 
@@ -7455,14 +7465,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'message.index' => 
+    'program.other' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'message',
+      'uri' => 'other-programs',
       'action' => 
       array (
         'middleware' => 
@@ -7470,240 +7480,13 @@ app('router')->setCompiledRoutes(
           0 => 'web',
           1 => 'lang',
         ),
-        'as' => 'message.index',
-        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@index',
-        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@index',
+        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:269:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:51:"function() { return \\view(\'site.programs-other\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004fb0000000000000000";}";s:4:"hash";s:44:"NYoEEnaPERfebqUs0Cr1S6trJ3hlb08/eTHLYO+j4hs=";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'message.create' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'message/create',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'lang',
-        ),
-        'as' => 'message.create',
-        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@create',
-        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@create',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'message.store' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'POST',
-      ),
-      'uri' => 'message',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'lang',
-        ),
-        'as' => 'message.store',
-        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@store',
-        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@store',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'message.show' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'message/{message}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'lang',
-        ),
-        'as' => 'message.show',
-        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@show',
-        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@show',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'message.edit' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'message/{message}/edit',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'lang',
-        ),
-        'as' => 'message.edit',
-        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@edit',
-        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@edit',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'message.update' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'PUT',
-        1 => 'PATCH',
-      ),
-      'uri' => 'message/{message}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'lang',
-        ),
-        'as' => 'message.update',
-        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@update',
-        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@update',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'message.destroy' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'DELETE',
-      ),
-      'uri' => 'message/{message}',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-          1 => 'lang',
-        ),
-        'as' => 'message.destroy',
-        'uses' => 'App\\Http\\Controllers\\Site\\MessageController@destroy',
-        'controller' => 'App\\Http\\Controllers\\Site\\MessageController@destroy',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
+        'as' => 'program.other',
       ),
       'fallback' => false,
       'defaults' => 
@@ -7756,7 +7539,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::dnaYoF95x2lu0sys' => 
+    'generated::AzHF0HFXXfU3HuUR' => 
     array (
       'methods' => 
       array (
@@ -7776,7 +7559,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::dnaYoF95x2lu0sys',
+        'as' => 'generated::AzHF0HFXXfU3HuUR',
       ),
       'fallback' => false,
       'defaults' => 
@@ -7865,7 +7648,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::FSSOAZOrA6ROFR0O' => 
+    'generated::s6yCM68mMSF7PGMc' => 
     array (
       'methods' => 
       array (
@@ -7885,7 +7668,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::FSSOAZOrA6ROFR0O',
+        'as' => 'generated::s6yCM68mMSF7PGMc',
       ),
       'fallback' => false,
       'defaults' => 
@@ -8084,7 +7867,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::kJ2k4Yqonrh0hO3r' => 
+    'generated::QiYY4QphdWEsesKK' => 
     array (
       'methods' => 
       array (
@@ -8104,7 +7887,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::kJ2k4Yqonrh0hO3r',
+        'as' => 'generated::QiYY4QphdWEsesKK',
       ),
       'fallback' => false,
       'defaults' => 
@@ -8268,6 +8051,44 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'dashboard.editor' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'admin/editor',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+          2 => 'lang',
+        ),
+        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:267:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:49:"function () { return \\view(\'dashboard.editor\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008ee0000000000000000";}";s:4:"hash";s:44:"eSJgDK4EJZ8kxAbcJCY8C5IAYu0lJ8SRGDcvJzjvLPQ=";}}',
+        'namespace' => NULL,
+        'prefix' => '/admin',
+        'where' => 
+        array (
+        ),
+        'as' => 'dashboard.editor',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
     'dashboard.index' => 
     array (
       'methods' => 
@@ -8282,8 +8103,9 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
-        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:268:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:50:"function () { return \\view(\'admin.index_admin\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008f20000000000000000";}";s:4:"hash";s:44:"PUva/p7t54/6ydZZK7O60epRU2K93VAYnXFJAuWbGTc=";}}',
+        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:260:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:42:"function () { return \\view(\'dashboard\'); }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000008f00000000000000000";}";s:4:"hash";s:44:"4gfZg7ilPnd+anAyw9wPCW0V9i6YukG30rqayRQqFTQ=";}}',
         'namespace' => NULL,
         'prefix' => '/admin',
         'where' => 
@@ -8319,6 +8141,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'role.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\RoleController@index',
@@ -8357,6 +8180,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'role.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\RoleController@create',
@@ -8394,6 +8218,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'role.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\RoleController@store',
@@ -8432,6 +8257,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'role.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\RoleController@show',
@@ -8470,6 +8296,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'role.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\RoleController@edit',
@@ -8508,6 +8335,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'role.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\RoleController@update',
@@ -8545,6 +8373,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'role.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\RoleController@destroy',
@@ -8582,6 +8411,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\RoleController@delete',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\RoleController@delete',
@@ -8620,6 +8450,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\UserController@index',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\UserController@index',
@@ -8657,6 +8488,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\UserController@store',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\UserController@store',
@@ -8695,6 +8527,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\UserController@edit',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\UserController@edit',
@@ -8732,6 +8565,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\UserController@update',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\UserController@update',
@@ -8769,6 +8603,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\UserController@destroy',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\UserController@destroy',
@@ -8806,6 +8641,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\UserController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\UserController@deleteSelected',
@@ -8844,6 +8680,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\UserController@showNotification',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\UserController@showNotification',
@@ -8882,6 +8719,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\UserController@changeStatus',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\UserController@changeStatus',
@@ -8920,6 +8758,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-slider.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@index',
@@ -8958,6 +8797,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-slider.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@create',
@@ -8995,6 +8835,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-slider.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@store',
@@ -9033,6 +8874,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-slider.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@show',
@@ -9071,6 +8913,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-slider.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@edit',
@@ -9109,6 +8952,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-slider.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@update',
@@ -9146,6 +8990,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-slider.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@destroy',
@@ -9183,6 +9028,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\Slider\\SliderController@deleteSelected',
@@ -9221,6 +9067,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-service.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@index',
@@ -9259,6 +9106,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-service.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@create',
@@ -9296,6 +9144,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-service.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@store',
@@ -9334,6 +9183,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-service.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@show',
@@ -9372,6 +9222,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-service.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@edit',
@@ -9410,6 +9261,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-service.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@update',
@@ -9447,6 +9299,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-service.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@destroy',
@@ -9484,6 +9337,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\Service\\ServiceController@deleteSelected',
@@ -9522,6 +9376,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceSupport.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@index',
@@ -9560,6 +9415,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceSupport.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@create',
@@ -9597,6 +9453,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceSupport.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@store',
@@ -9635,6 +9492,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceSupport.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@show',
@@ -9673,6 +9531,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceSupport.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@edit',
@@ -9711,6 +9570,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceSupport.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@update',
@@ -9748,6 +9608,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceSupport.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@destroy',
@@ -9785,6 +9646,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceSupport\\ServiceSupportController@deleteSelected',
@@ -9823,6 +9685,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceReason.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@index',
@@ -9861,6 +9724,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceReason.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@create',
@@ -9898,6 +9762,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceReason.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@store',
@@ -9936,6 +9801,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceReason.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@show',
@@ -9974,6 +9840,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceReason.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@edit',
@@ -10012,6 +9879,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceReason.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@update',
@@ -10049,6 +9917,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceReason.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@destroy',
@@ -10086,6 +9955,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceReason\\ServiceReasonController@deleteSelected',
@@ -10124,6 +9994,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceStep.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@index',
@@ -10162,6 +10033,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceStep.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@create',
@@ -10199,6 +10071,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceStep.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@store',
@@ -10237,6 +10110,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceStep.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@show',
@@ -10275,6 +10149,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceStep.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@edit',
@@ -10313,6 +10188,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceStep.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@update',
@@ -10350,6 +10226,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-serviceStep.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@destroy',
@@ -10387,6 +10264,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\ServiceStep\\ServiceStepController@deleteSelected',
@@ -10425,6 +10303,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-sale.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@index',
@@ -10463,6 +10342,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-sale.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@create',
@@ -10500,6 +10380,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-sale.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@store',
@@ -10538,6 +10419,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-sale.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@show',
@@ -10576,6 +10458,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-sale.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@edit',
@@ -10614,6 +10497,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-sale.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@update',
@@ -10651,6 +10535,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-sale.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@destroy',
@@ -10688,6 +10573,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\Sale\\SaleController@deleteSelected',
@@ -10726,6 +10612,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-aboutUs.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@index',
@@ -10764,6 +10651,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-aboutUs.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@create',
@@ -10801,6 +10689,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-aboutUs.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@store',
@@ -10839,6 +10728,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-aboutUs.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@show',
@@ -10877,6 +10767,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-aboutUs.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@edit',
@@ -10915,6 +10806,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-aboutUs.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@update',
@@ -10952,6 +10844,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-aboutUs.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@destroy',
@@ -10989,6 +10882,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\AboutUs\\AboutUsController@deleteSelected',
@@ -11027,6 +10921,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyUs.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@index',
@@ -11065,6 +10960,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyUs.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@create',
@@ -11102,6 +10998,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyUs.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@store',
@@ -11140,6 +11037,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyUs.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@show',
@@ -11178,6 +11076,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyUs.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@edit',
@@ -11216,6 +11115,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyUs.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@update',
@@ -11253,6 +11153,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyUs.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@destroy',
@@ -11290,6 +11191,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyUs\\WhyUsController@deleteSelected',
@@ -11328,6 +11230,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyProgram.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@index',
@@ -11366,6 +11269,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyProgram.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@create',
@@ -11403,6 +11307,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyProgram.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@store',
@@ -11441,6 +11346,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyProgram.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@show',
@@ -11479,6 +11385,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyProgram.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@edit',
@@ -11517,6 +11424,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyProgram.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@update',
@@ -11554,6 +11462,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-whyProgram.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@destroy',
@@ -11591,6 +11500,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\WhyProgram\\WhyProgramController@deleteSelected',
@@ -11629,6 +11539,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-program.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@index',
@@ -11667,6 +11578,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-program.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@create',
@@ -11704,6 +11616,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-program.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@store',
@@ -11742,6 +11655,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-program.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@show',
@@ -11780,6 +11694,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-program.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@edit',
@@ -11818,6 +11733,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-program.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@update',
@@ -11855,6 +11771,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-program.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@destroy',
@@ -11892,6 +11809,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\Program\\ProgramController@deleteSelected',
@@ -11930,6 +11848,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programManage.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@index',
@@ -11968,6 +11887,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programManage.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@create',
@@ -12005,6 +11925,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programManage.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@store',
@@ -12043,6 +11964,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programManage.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@show',
@@ -12081,6 +12003,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programManage.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@edit',
@@ -12119,6 +12042,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programManage.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@update',
@@ -12156,6 +12080,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programManage.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@destroy',
@@ -12193,6 +12118,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramManage\\ProgramManageController@deleteSelected',
@@ -12231,6 +12157,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programAbility.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@index',
@@ -12269,6 +12196,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programAbility.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@create',
@@ -12306,6 +12234,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programAbility.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@store',
@@ -12344,6 +12273,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programAbility.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@show',
@@ -12382,6 +12312,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programAbility.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@edit',
@@ -12420,6 +12351,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programAbility.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@update',
@@ -12457,6 +12389,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programAbility.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@destroy',
@@ -12494,6 +12427,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramAbility\\ProgramAbilityController@deleteSelected',
@@ -12532,6 +12466,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programPackage.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@index',
@@ -12570,6 +12505,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programPackage.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@create',
@@ -12607,6 +12543,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programPackage.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@store',
@@ -12645,6 +12582,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programPackage.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@show',
@@ -12683,6 +12621,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programPackage.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@edit',
@@ -12721,6 +12660,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programPackage.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@update',
@@ -12758,6 +12698,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-programPackage.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@destroy',
@@ -12795,6 +12736,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\ProgramPackage\\ProgramPackageController@deleteSelected',
@@ -12833,6 +12775,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-blog.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@index',
@@ -12871,6 +12814,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-blog.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@create',
@@ -12908,6 +12852,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-blog.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@store',
@@ -12946,6 +12891,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-blog.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@show',
@@ -12984,6 +12930,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-blog.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@edit',
@@ -13022,6 +12969,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-blog.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@update',
@@ -13059,6 +13007,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-blog.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@destroy',
@@ -13096,6 +13045,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\Blog\\BlogController@deleteSelected',
@@ -13134,6 +13084,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-business.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@index',
@@ -13172,6 +13123,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-business.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@create',
@@ -13209,6 +13161,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-business.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@store',
@@ -13247,6 +13200,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-business.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@show',
@@ -13285,6 +13239,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-business.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@edit',
@@ -13323,6 +13278,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-business.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@update',
@@ -13360,6 +13316,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-business.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@destroy',
@@ -13397,6 +13354,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\Business\\BusinessController@deleteSelected',
@@ -13435,6 +13393,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-importantCustomer.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@index',
@@ -13473,6 +13432,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-importantCustomer.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@create',
@@ -13510,6 +13470,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-importantCustomer.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@store',
@@ -13548,6 +13509,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-importantCustomer.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@show',
@@ -13586,6 +13548,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-importantCustomer.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@edit',
@@ -13624,6 +13587,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-importantCustomer.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@update',
@@ -13661,6 +13625,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-importantCustomer.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@destroy',
@@ -13698,6 +13663,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\ImportantCustomer\\ImportantCustomerController@deleteSelected',
@@ -13736,6 +13702,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-companyInformation.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@index',
@@ -13774,6 +13741,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-companyInformation.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@create',
@@ -13811,6 +13779,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-companyInformation.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@store',
@@ -13849,6 +13818,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-companyInformation.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@show',
@@ -13887,6 +13857,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-companyInformation.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@edit',
@@ -13925,6 +13896,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-companyInformation.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@update',
@@ -13962,6 +13934,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-companyInformation.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@destroy',
@@ -13999,6 +13972,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\CompanyInformation\\CompanyInformationController@deleteSelected',
@@ -14037,6 +14011,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-customersReview.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@index',
@@ -14075,6 +14050,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-customersReview.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@create',
@@ -14112,6 +14088,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-customersReview.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@store',
@@ -14150,6 +14127,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-customersReview.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@show',
@@ -14188,6 +14166,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-customersReview.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@edit',
@@ -14226,6 +14205,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-customersReview.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@update',
@@ -14263,6 +14243,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-customersReview.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@destroy',
@@ -14300,6 +14281,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\CustomersReview\\CustomersReviewController@deleteSelected',
@@ -14338,6 +14320,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-package.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@index',
@@ -14376,6 +14359,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-package.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@create',
@@ -14413,6 +14397,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-package.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@store',
@@ -14451,6 +14436,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-package.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@show',
@@ -14489,6 +14475,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-package.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@edit',
@@ -14527,6 +14514,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-package.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@update',
@@ -14564,6 +14552,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-package.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@destroy',
@@ -14601,6 +14590,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\Package\\PackageController@deleteSelected',
@@ -14639,6 +14629,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-packageBenefit.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@index',
@@ -14677,6 +14668,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-packageBenefit.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@create',
@@ -14714,6 +14706,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-packageBenefit.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@store',
@@ -14752,6 +14745,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-packageBenefit.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@show',
@@ -14790,6 +14784,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-packageBenefit.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@edit',
@@ -14828,6 +14823,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-packageBenefit.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@update',
@@ -14865,6 +14861,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-packageBenefit.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@destroy',
@@ -14902,6 +14899,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\PackageBenefit\\PackageBenefitController@deleteSelected',
@@ -14940,6 +14938,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-message.index',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@index',
@@ -14978,6 +14977,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-message.create',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@create',
@@ -15015,6 +15015,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-message.store',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@store',
@@ -15053,6 +15054,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-message.show',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@show',
@@ -15091,6 +15093,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-message.edit',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@edit',
@@ -15129,6 +15132,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-message.update',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@update',
@@ -15166,6 +15170,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'as' => 'dashboard-message.destroy',
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@destroy',
@@ -15203,6 +15208,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
           1 => 'auth',
+          2 => 'lang',
         ),
         'uses' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@deleteSelected',
         'controller' => 'App\\Http\\Controllers\\Dashboard\\Message\\MessageController@deleteSelected',

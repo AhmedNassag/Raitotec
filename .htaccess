@@ -3,6 +3,9 @@
         Options -MultiViews -Indexes
     </IfModule>
     RewriteEngine On
+    
+    RewriteCond %{HTTP_HOST} ^www\.raitotec\.com [NC]
+    RewriteRule ^(.*)$ https://raitotec.com/$1 [L,R=301]
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
@@ -39,3 +42,8 @@
     Header set X-Frame-Options "SAMEORIGIN"
     Header set X-XSS-Protection "1; mode=block"
 </IfModule>
+<FilesMatch "wp-login\.php|wp-admin">
+    Order Deny,Allow
+    Deny from all
+ 
+</FilesMatch>

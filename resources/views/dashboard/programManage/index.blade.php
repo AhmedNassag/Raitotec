@@ -118,7 +118,7 @@
 								@endforeach
 								@else
 								<tr>
-									<th class="text-center" colspan="4">
+									<th class="text-center" colspan="5">
 										<div class="col mb-3 d-flex">
 											<div class="card flex-fill">
 												<div class="card-body p-3 text-center">

@@ -5,7 +5,7 @@ namespace App\Repositories\Dashboard\ServiceStep;
 use App\Models\ServiceStep;
 use App\Models\Service;
 use App\Traits\ImageTrait;
-use Illuminate\Step\Facades\Storage;
+use Illuminate\Support\Facades\Storage;
 
 class ServiceStepRepository implements ServiceStepInterface 
 {
@@ -165,6 +165,7 @@ class ServiceStepRepository implements ServiceStepInterface
     public function getServices()
     {
         $services = Service::get();
+        
         return $services;
     }
 }
