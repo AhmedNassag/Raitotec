@@ -38,6 +38,7 @@ class Blog extends Model
             return $this->first_content_en;
         }
     }
+
     public function getSecondTitleAttribute()
     {
         if(app()->getLocale() == 'ar') 
@@ -59,6 +60,18 @@ class Blog extends Model
         else 
         {
             return $this->second_content_en;
+        }
+    }
+
+    public function getSlugAttribute()
+    {
+        if(app()->getLocale() == 'ar') 
+        {
+            return $this->slug_ar;
+        }
+        else 
+        {
+            return $this->slug_en;
         }
     }
 

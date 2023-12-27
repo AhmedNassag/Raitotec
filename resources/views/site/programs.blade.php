@@ -471,7 +471,7 @@ Raito Company | Advanced And Innovative Software Systems
                 </div>
                 @endif
                 <div class="mt-4">
-                    <a href="{{ route('program.show',@$program->first_title) }}" class="p-2 px-4 button-stert button-mor">{{ trans('site.More') }}...</a>
+                    <a href="{{ route('program.show',@$program->slug) }}" class="p-2 px-4 button-stert button-mor">{{ trans('site.More') }}...</a>
                 </div>
             </div>
             <div class="col">

@@ -21,7 +21,7 @@ class ServiceRepository implements ServiceInterface
 
     public function show($id)
     {
-        $service = Service::with('serviceSupports','serviceReasons','serviceSteps')->where('first_title_ar',$id)->orWhere('first_title_en',$id)->first();
+        $service = Service::with('serviceSupports','serviceReasons','serviceSteps')->where('slug_ar',$id)->orWhere('slug_en',$id)->first();
 
         return view('site.service-defintion', compact('service'));
     }

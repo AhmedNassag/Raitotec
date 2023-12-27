@@ -17,12 +17,12 @@ class CreateBlogsTable extends Migration
             $table->id();
             $table->string('first_title_ar')->nullable();
             $table->string('first_title_en')->nullable();
-            $table->text('first_content_ar')->nullable();
-            $table->text('first_content_en')->nullable();
+            $table->longText('first_content_ar')->nullable();
+            $table->longText('first_content_en')->nullable();
             $table->string('second_title_ar')->nullable();
             $table->string('second_title_en')->nullable();
-            $table->text('second_content_ar')->nullable();
-            $table->text('second_content_en')->nullable();
+            $table->longText('second_content_ar')->nullable();
+            $table->longText('second_content_en')->nullable();
             $table->string('photo')->nullable();
             $table->foreignId('user_id')->nullable()->constrained('users')->cascadeOnDelete()->cascadeOnUpdate();
             $table->timestamps();

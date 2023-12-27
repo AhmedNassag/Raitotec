@@ -63,6 +63,18 @@ class Program extends Model
         }
     }
 
+    public function getSlugAttribute()
+    {
+        if(app()->getLocale() == 'ar') 
+        {
+            return $this->slug_ar;
+        }
+        else 
+        {
+            return $this->slug_en;
+        }
+    }
+
 
 
     //start relations

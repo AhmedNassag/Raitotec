@@ -1,6 +1,6 @@
 <?php
-    $programs = App\Models\Program::get(['id','first_title_ar','first_title_en']);
-    $services = App\Models\Service::get(['id','first_title_ar','first_title_en']);
+    $programs = App\Models\Program::get();
+    $services = App\Models\Service::get();
 ?>
 
 <!--start main-navbar-->
@@ -38,7 +38,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         @foreach($services as $service) 
-                            <li><a class="dropdown-item" href="{{ route('service.show',$service->first_title) }}">{{$service->first_title }}</a></li>
+                            <li><a class="dropdown-item" href="{{ route('service.show',$service->slug) }}">{{$service->first_title }}</a></li>
                         @endforeach
                     </ul>
                 </li>
@@ -51,7 +51,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         @foreach($programs as $program)    
-                            <li><a class="dropdown-item" href="{{ route('program.show',$program->first_title) }}">{{$program->first_title }}</a></li>
+                            <li><a class="dropdown-item" href="{{ route('program.show',$program->slug) }}">{{$program->first_title }}</a></li>
                         @endforeach
                         <li><a class="dropdown-item" href="{{ route('program.other') }}">{{ trans('site.Other Programs') }}</a></li>
                     </ul>

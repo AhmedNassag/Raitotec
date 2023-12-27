@@ -69,6 +69,10 @@ class BlogRepository implements BlogInterface
                 $photo_name      = $this->uploadImage($request->photo, 'attachments/blog');
                 $inputs['photo'] = $photo_name;
             }
+            //add slug
+            $inputs['slug_ar'] = str_replace(' ', '-', $request->first_title_ar);
+            $inputs['slug_en'] = str_replace(' ', '-', $request->first_title_en);
+
             //insert data
             $blog = Blog::create($inputs);
             if (!$blog) {
@@ -113,6 +117,10 @@ class BlogRepository implements BlogInterface
             } else {
                 $inputs['photo'] = $blog->photo;
             }
+            //update slug
+            $inputs['slug_ar'] = str_replace(' ', '-', $request->first_title_ar);
+            $inputs['slug_en'] = str_replace(' ', '-', $request->first_title_en);
+            //update data
             $blog->update($inputs);
             if (!$blog) {
                 session()->flash('error');

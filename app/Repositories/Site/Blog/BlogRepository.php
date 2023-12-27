@@ -43,7 +43,7 @@ class BlogRepository implements BlogInterface
 
     public function show($id)
     {
-        $blog = Blog::where('first_title_ar',$id)->orWhere('first_title_en',$id)->first();
+        $blog = Blog::where('slug_ar',$id)->orWhere('slug_en',$id)->first();
         $htmlContent = $blog->second_content;
 
         // Replace <figure> tags with <div> tags

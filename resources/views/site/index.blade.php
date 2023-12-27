@@ -124,7 +124,7 @@ Raito Company - Innovative Software Solutions And Specialized Software Systems
                         <h3 class="card-title">{{ @$program->first_title }}</h3>
                         <p class="card-text">{!! @$program->first_content !!}</p>
                         <div>
-                            <a href="{{ route('program.show',@$program->first_title) }}" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
+                            <a href="{{ route('program.show',@$program->slug) }}" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ Raito Company - Innovative Software Solutions And Specialized Software Systems
             @endforeach
             <div class="col d-flex">
                 <div class="card aos-init aos-animate" data-aos-delay="30" data-aos="fade-up">
-                    <img class="img-fluid" src="{{ asset('public/assets_site/img/our-p.png') }}" alt="Services">
+                    <img class="img-fluid" src="{{ asset('public/assets_site/img/our-p.webp') }}" alt="Services" loading="lazy">
                     <div class="card-body">
                         <h3 class="card-title">
                             @if (App::getLocale() == 'ar')
@@ -370,7 +370,7 @@ Raito Company - Innovative Software Solutions And Specialized Software Systems
                         <h3 class="card-title">{{ @$service->first_title }}</h3>
                         <p class="card-text">{!! @$service->first_content !!}</p>
                         <div>
-                            <a href="{{ route('service.show',@$service->first_title) }}" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
+                            <a href="{{ route('service.show',@$service->slug) }}" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
                         </div>
                     </div>
                 </div>
@@ -518,7 +518,7 @@ Raito Company - Innovative Software Solutions And Specialized Software Systems
                         <p class="card-text">
                             {{ @$normalizedText }}
                         </p>
-                        <a href="{{ route('blog.show',@$blog->first_title) }}" class="btn btn-primar px-3 pt-3 pb-3">{{ trans('site.More') }}</a>
+                        <a href="{{ route('blog.show',@$blog->slug) }}" class="btn btn-primar px-3 pt-3 pb-3">{{ trans('site.More') }}</a>
                     </div>
                 </div>
             </div>

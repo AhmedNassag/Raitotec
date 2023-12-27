@@ -29,7 +29,7 @@
     Order Deny,Allow
     Deny from all
 </FilesMatch>
-<FilesMatch "\.xml|\.yml|\.yaml|\.ini">
+<FilesMatch "\.yml|\.yaml|\.ini">
     Order Deny,Allow
     Deny from all
 </FilesMatch>
@@ -41,9 +41,18 @@
     Header set X-Content-Type-Options "nosniff"
     Header set X-Frame-Options "SAMEORIGIN"
     Header set X-XSS-Protection "1; mode=block"
+        Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
 </IfModule>
 <FilesMatch "wp-login\.php|wp-admin">
     Order Deny,Allow
     Deny from all
  
 </FilesMatch>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php81” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

@@ -60,13 +60,15 @@ class ServiceRepository implements ServiceInterface
                 $photo_name      = $this->uploadImage($request->photo, 'attachments/service');
                 $inputs['photo'] = $photo_name;
             }
+            //add slug
+            $inputs['slug_ar'] = str_replace(' ', '-', $request->first_title_ar);
+            $inputs['slug_en'] = str_replace(' ', '-', $request->first_title_en);
             //insert data
             $service = Service::create($inputs);
             if (!$service) {
                 session()->flash('error');
                 return redirect()->back();
             }
-
             session()->flash('success');
             return redirect()->back();
         } catch (\Exception $e) {
@@ -95,6 +97,10 @@ class ServiceRepository implements ServiceInterface
             } else {
                 $inputs['photo'] = $service->photo;
             }
+            //update slug
+            $inputs['slug_ar'] = str_replace(' ', '-', $request->first_title_ar);
+            $inputs['slug_en'] = str_replace(' ', '-', $request->first_title_en);
+            //update data
             $service->update($inputs);
             if (!$service) {
                 session()->flash('error');

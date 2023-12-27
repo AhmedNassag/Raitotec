@@ -25,7 +25,7 @@ use Illuminate\Support\Facades\Auth;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('editor', function () { return view('editor'); } );
 /****************************** start site routes ******************************/
 Route::get('/sitemap.xml', [SiteController::class, 'sitemap']);
 Route::get('/robots.txt', [SiteController::class, 'robots']);

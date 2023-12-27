@@ -57,13 +57,15 @@ class ProgramRepository implements ProgramInterface
                 $photo_name      = $this->uploadImage($request->photo, 'attachments/program');
                 $inputs['photo'] = $photo_name;
             }
+            //add slug
+            $inputs['slug_ar'] = str_replace(' ', '-', $request->first_title_ar);
+            $inputs['slug_en'] = str_replace(' ', '-', $request->first_title_en);
             //insert data
             $program = Program::create($inputs);
             if (!$program) {
                 session()->flash('error');
                 return redirect()->back();
             }
-
             session()->flash('success');
             return redirect()->back();
         } catch (\Exception $e) {
@@ -92,6 +94,10 @@ class ProgramRepository implements ProgramInterface
             } else {
                 $inputs['photo'] = $program->photo;
             }
+            //update slug
+            $inputs['slug_ar'] = str_replace(' ', '-', $request->first_title_ar);
+            $inputs['slug_en'] = str_replace(' ', '-', $request->first_title_en);
+            //update data
             $program->update($inputs);
             if (!$program) {
                 session()->flash('error');
