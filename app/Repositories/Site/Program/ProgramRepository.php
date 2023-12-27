@@ -19,7 +19,7 @@ class ProgramRepository implements ProgramInterface
 
     public function show($id)
     {
-        $program     = Program::with('programManages','programAbilities','programPackages')->findOrFail($id);
+        $program     = Program::with('programManages','programAbilities','programPackages')->where('first_title_ar',$id)->orWhere('first_title_en',$id)->first();
         $whyPrograms = WhyProgram::get();
 
         return view('site.program-defintion', compact('program','whyPrograms'));

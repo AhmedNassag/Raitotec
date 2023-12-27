@@ -96,7 +96,7 @@
                         <h3 class="card-title">{{ $service->first_title }}</h3>
                         <p class="card-text">{{ $service->first_content }}</p>
                         <div>
-                            <a href="{{ route('service.show',$service->id) }}" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
+                            <a href="{{ route('service.show',$service->first_title) }}" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
                         </div>
                     </div>
                 </div>

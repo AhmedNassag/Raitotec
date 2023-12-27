@@ -38,7 +38,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         @foreach($services as $service) 
-                            <li><a class="dropdown-item" href="{{ route('service.show',$service->id) }}">{{$service->first_title }}</a></li>
+                            <li><a class="dropdown-item" href="{{ route('service.show',$service->first_title) }}">{{$service->first_title }}</a></li>
                         @endforeach
                     </ul>
                 </li>
@@ -51,7 +51,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         @foreach($programs as $program)    
-                            <li><a class="dropdown-item" href="{{ route('program.show',$program->id) }}">{{$program->first_title }}</a></li>
+                            <li><a class="dropdown-item" href="{{ route('program.show',$program->first_title) }}">{{$program->first_title }}</a></li>
                         @endforeach
                         <li><a class="dropdown-item" href="{{ route('program.other') }}">{{ trans('site.Other Programs') }}</a></li>
                     </ul>

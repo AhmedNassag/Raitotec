@@ -52,7 +52,7 @@
                 @foreach ($data as $key=>$item)
                     <div class="col col-serves aos-init aos-animate d-flex" data-aos="fade-up" data-aos-delay="20">
                         <div class="card card-blog">
-                            <a href="{{ route('blog.show',@$item->id) }}">
+                            <a href="{{ route('blog.show',@$item->first_title) }}">
                                 <div class="img-blog-date">
                                     <img class="blog-img" src="{{ asset('public/attachments/blog/'.@$item->photo) }}" alt="{{ @$item->first_title }}" loading="lazy">
                                     <div class="date-time">
@@ -74,7 +74,7 @@
                                     </p> --}}
                                 </div>
                                 <div class="component-Know">
-                                    <a class="btn btn-primar px-3 link-more" href="{{ route('blog.show',@$item->id) }}">
+                                    <a class="btn btn-primar px-3 link-more" href="{{ route('blog.show',@$item->first_title) }}">
                                         {{ trans('site.More') }}...    
                                     </a>
                                 </div>

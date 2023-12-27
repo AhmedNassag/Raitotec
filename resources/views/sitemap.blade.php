@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?php echo '<?xml version="1.0" encoding="UTF-8"?>' ; ?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -71,7 +71,7 @@
 
     @foreach ($blogs as $blog)
     <url>
-        <loc>{{ url('blog/'.$blog->id) }}</loc>
+        <loc>{{ url('blog/'.$blog->first_title) }}</loc>
         <lastmod>{{ @$blog->created_at?->format('Y-m-d') }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
@@ -88,7 +88,7 @@
 
     @foreach ($services as $service)
     <url>
-        <loc>{{ url('service/'.$service->id) }}</loc>
+        <loc>{{ url('service/'.$service->first_title) }}</loc>
         <lastmod>{{ @$service->created_at?->format('Y-m-d') }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
@@ -105,7 +105,7 @@
 
     @foreach ($programs as $programs)
     <url>
-        <loc>{{ url('program/'.$programs->id) }}</loc>
+        <loc>{{ url('program/'.$programs->first_title) }}</loc>
         <lastmod>{{ @$programs->created_at?->format('Y-m-d') }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>

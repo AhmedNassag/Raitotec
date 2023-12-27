@@ -124,7 +124,7 @@ Raito Company - Innovative Software Solutions And Specialized Software Systems
                         <h3 class="card-title">{{ @$program->first_title }}</h3>
                         <p class="card-text">{!! @$program->first_content !!}</p>
                         <div>
-                            <a href="{{ route('program.show',@$program->id) }}" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
+                            <a href="{{ route('program.show',@$program->first_title) }}" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
                         </div>
                     </div>
                 </div>
@@ -370,7 +370,7 @@ Raito Company - Innovative Software Solutions And Specialized Software Systems
                         <h3 class="card-title">{{ @$service->first_title }}</h3>
                         <p class="card-text">{!! @$service->first_content !!}</p>
                         <div>
-                            <a href="{{ route('service.show',@$service->id) }}" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
+                            <a href="{{ route('service.show',@$service->first_title) }}" class="btn btn-primar px-3">{{ trans('site.More') }}</a>
                         </div>
                     </div>
                 </div>
@@ -518,7 +518,7 @@ Raito Company - Innovative Software Solutions And Specialized Software Systems
                         <p class="card-text">
                             {{ @$normalizedText }}
                         </p>
-                        <a href="{{ route('blog.show',@$blog->id) }}" class="btn btn-primar px-3 pt-3 pb-3">{{ trans('site.More') }}</a>
+                        <a href="{{ route('blog.show',@$blog->first_title) }}" class="btn btn-primar px-3 pt-3 pb-3">{{ trans('site.More') }}</a>
                     </div>
                 </div>
             </div>

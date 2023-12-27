@@ -24,9 +24,9 @@ class StoreServiceRequest extends FormRequest
     public function rules()
     {
         return [
-            'first_title_ar'    => 'required',
+            'first_title_ar'    => 'required|unique:services,first_title_ar',
             'first_content_ar'  => 'required',
-            'first_title_en'    => 'required',
+            'first_title_en'    => 'required|unique:services,first_title_en',
             'first_content_en'  => 'required',
             'second_title_ar'   => 'required',
             'second_content_ar' => 'required',
