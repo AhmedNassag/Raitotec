@@ -23,6 +23,9 @@ class CreateBlogsTable extends Migration
             $table->string('second_title_en')->nullable();
             $table->longText('second_content_ar')->nullable();
             $table->longText('second_content_en')->nullable();
+            $table->string('meta_description')->nullable();
+            $table->string('slug_ar')->nullable();
+            $table->string('slug_en')->nullable();
             $table->string('photo')->nullable();
             $table->foreignId('user_id')->nullable()->constrained('users')->cascadeOnDelete()->cascadeOnUpdate();
             $table->timestamps();

@@ -19,10 +19,12 @@ class CreateServicesTable extends Migration
             $table->string('first_title_en')->nullable();
             $table->text('first_content_ar')->nullable();
             $table->text('first_content_en')->nullable();
-            // $table->string('second_title_ar')->nullable();
-            // $table->string('second_title_en')->nullable();
-            // $table->text('second_content_ar')->nullable();
-            // $table->text('second_content_en')->nullable();
+            $table->string('second_title_ar')->nullable();
+            $table->string('second_title_en')->nullable();
+            $table->text('second_content_ar')->nullable();
+            $table->text('second_content_en')->nullable();
+            $table->string('slug_ar')->nullable();
+            $table->string('slug_en')->nullable();
             $table->string('photo')->nullable();
             $table->timestamps();
         });
